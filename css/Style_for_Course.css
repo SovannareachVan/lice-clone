@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+  }
+
+  .full_container{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+  }
+  
+  
+  .full_container .container{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .container .box_left{
+    width: 40%;
+    height: 100%;
+  }
+  .box_left .txt1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+  }.box_left .txt2{
+    width: 100%;
+    height: 50%;
+    padding-top: 10px;
+  }
+  
+  .box_left .txt1 p{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .box_left .txt2 p{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .box_logo{
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+  }
+  .box_logo .logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .logo img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+  }
+  .container .box_right{
+    width: 50%;
+    height:100%;
+    z-index: 0;
+  }
+  .box_right .txt3{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  
+  .box_right .txt4{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+  
+   
+    
+  }
+  .box_right .txt4 p{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .bordertxt4{
+    width: 100%;
+    height: 30px;
+    background-color: bl;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  input{
+    outline: none;
+    border: 1px ;
+    border-bottom: 1px solid white;
+    padding: 5px 10px 5px 2px;
+    border-radius: 1px;
+    background: black;
+    font-size: 13px
+    
+  }
+  .bit_container{
+    width: 100%;
+    height: 40px;
+    background-color:black;
+  }
+  .bit_container .s_container{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    background-color: blue;
+  }
+  .s_container .s_boxleft{
+    width: 70%;
+    height: 40px;
+    background-color:black;
+  }
+  .s_container .s_boxright{
+    width: 30%;
+    height: 40px;
+    background-color: black;
+  }
+  .s_boxleft ul{
+    display: flex;
+    gap: 15px;
+    list-style-type:none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  ul a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: yellow;
+  }
+  .manu2 a{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .s_boxright{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    font-size: 13px;
+  }
+  .Full_pic{
+    width: 100%;
+    height: 640px;
+    background-color:black;
+  }
+  .box_pic{
+    width: 100%;
+    height:640px ;
+    background-color: black;
+  }
+  .Big_Image img{
+    width: 100%;
+    height: 640px;
+  } 
+  .bordertxt4 .icon_course{
+    position: relative;
+    /* color: blue; */
+    width: 100px;
+    /* height: auto; */
+    /* height: 100px; */
+    background-color: aqua;
+    height: 20px;
+  }
+  .bordertxt4 .icon_course i{
+    color: aliceblue;
+    /* position: absolute; */
+    padding: 10px;
+    /* background-color: aqua; */
+  }

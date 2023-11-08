@@ -16,7 +16,9 @@ html{
   height: 150px;
   background-color: black;
 }
-
+.manu .ho a{
+  color: #EAB308;
+}
 
 .full_container .container{
   width: 70%;

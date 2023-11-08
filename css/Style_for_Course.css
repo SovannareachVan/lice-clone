@@ -136,6 +136,9 @@ html{
   justify-content: end;
   gap: 20px;
 }
+.manu .cu a{
+  color: #EAB308;
+}
 .s_boxleft ul{
   display: flex;
   gap: 15px;

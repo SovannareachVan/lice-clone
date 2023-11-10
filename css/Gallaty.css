@@ -284,4 +284,303 @@ a:hover{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .Overlay{
+    width: 91%;
+    height: 90%;
+    background-color: rgba(0, 139, 139, 0.925);
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+  }
+  .al_left:hover .Overlay{
+    opacity: 0.8;
+  }
+  .Overlay .View_photo{
+    width: 90%;
+    height:15%;
+    margin-bottom: 15%;
+    display: flex;
+  }
+  .View_photo .View_photo_btn{
+    height: 100%;
+    width: 30%;
+    margin:  0 auto;
+  }
+  .View_photo_btn button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(3, 201, 201, 0.87);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .View_photo_btn button:hover{
+    color: black;
+    background-color: white;
+  }
+  .T3_item_con{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+  }
+  .T3_item_con .T3_item{
+    width:70%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+  }
+.T3_item .T3_Left,.T3_Mid,.T3_Right{
+  width: 33.33%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.T3_Left,.T3_Mid,.T3_Right p{
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Video_Album_con{
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  display: flex;
+}
+.Video_Album_con .Video_Album{
+  width: 70%;
+  height: 100%;
+  background-color:;
+  margin: 0 auto;
+  gap:50px ;
+  display: flex;
 
+}
+.Video_Album .Video_left{
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Video_left img{
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.Video_left .video_bor{
+  width: 95%;
+  height: 95%;
+  border: 2px solid goldenrod;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Video_left .video_bor span{
+}
+.video_bor h4{
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Video_left .Overlay2{
+  width: 91%;
+  height: 90%;
+  background-color: rgba(0, 139, 139, 0.925);
+  position: absolute;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 10px;
+  z-index: 20;
+}
+.Video_left:hover .Overlay2{
+  opacity: 0.8;
+}
+.Overlay2 .View_video{
+  width: 90%;
+  height:15%;
+  margin-bottom: 15%;
+  display: flex;
+}
+.View_video .View_video_btn{
+  height: 100%;
+  width: 30%;
+  margin:  0 auto;
+}
+.View_video_btn button{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(3, 201, 201, 0.87);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.View_video_btn button:hover{
+  color: black;
+  background-color: white;
+}
+.T2_item_con{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+}
+.T2_item{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+.T2_item .T2_item_left,.T2_item_right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.T2_item p{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.add_vi {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #E6AB19;
+}
+.complete2{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}.Gallary{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+}
+.Gallary .ga_in{
+  width: 70%;
+  height: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  gap: 25rem;
+}
+.Gallary .ga_in .ga_left ,.ga_right{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+}
+.ga_left .Course_,.Galla,.Your_acc{
+  width: 33.33%;
+  height: 100%;
+
+}
+.ga_left p{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ga_right p{
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon2 i{
+  font-size: 30px;
+  color: yellowgreen;
+}
+.com{
+  width: 100%;
+  height: 15px;
+  background-color: black;
+}
+.com_la{
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  display: flex;
+
+
+}
+.com_la .la_in{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+.com_last2{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.last{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+}
+.last .last_in{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+
+}
+.last_in p{
+  color: white;
+  font-size:20px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.last_in .last_in_left{
+  width: 33.33%;
+  height: 100%;
+
+}
+.last_in .last_in_mid{
+  width: 33.33%;
+  height: 100%;
+
+  display: flex;
+}
+.last_in .last_in_right{
+  width: 33.33%;
+  height: 100%;
+
+}
+.icon_last{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 100px;
+  font-size: 25px;
+  color: white;
+}

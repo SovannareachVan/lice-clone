@@ -1,125 +1,119 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+  }
+  .manu .Ho a{
+    color: goldenrod;
+  }
+.B_Container{
+ width: 100%;
+ height: 150px;
+ background-color: black; 
+ display: flex;
 }
-
-.full_container{
-  width: 100%;
-  height: 150px;
-  background-color: black;
-}
-.manu .ho a{
-  color: #EAB308;
-}
-
-.full_container .container{
+.B_in{
   width: 70%;
   height: 100%;
   margin: 0 auto;
   display: flex;
 }
-.container .box_left{
-  width: 40%;
-  height: 100%;
-}
-.box_left .txt1{
-  width: 100%;
-  height: 50%;
-  display: flex;
-  align-items: end;
-}.box_left .txt2{
-  width: 100%;
-  height: 50%;
-  padding-top: 10px;
-}
 
-.box_left .txt1 p{
-  color: white;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+.B_left ,.B_right{
+  width: 45%;
+  height: 100%;
+
 }
-.box_left .txt2 p{
-  color: white;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+.B_up, .B_down{
+  width: 100%;
+  height: 50%;
+
 }
-.container .box_logo{
+.B_mid{
   width: 10%;
   height: 100%;
-  padding: 10px;
+  padding-top: 5px;
 }
-.box_logo .logo{
+.B_left p{
+  font-size: 20px;
+  color: white;
+}
+.B_up p{
+  display: flex;
+  padding-top: 40px;
+}
+.B_up P{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.B_mid .For_logo{
   width: 100%;
   height: 100%;
+
+
 }
-.logo img{
-  width: 100%;
-  height: 100%;
+.For_logo img{
   object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
-.container .box_right{
-  width: 50%;
-  height:100%;
-  z-index: 0;
-}
-.box_right .txt3{
+.Bright, .right_search{
   width: 100%;
   height: 50%;
-  background-color: black;
   display: flex;
+  justify-content: end;
   align-items: end;
-  justify-content: end;
 }
+.right_search .right_s_right{
+  width: 40%;
+  height: 100%;
 
-.box_right .txt4{
+  border-bottom: 2px solid white;
+}
+.s_and_s input{
+  font-size:17px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.s_and_s{
+  padding-top: 50px;
+}
+.s_and_s i{
+  color: white;
+}
+ .right_follow{
   width: 100%;
   height: 50%;
-  background-color: black;
-
- 
-  
-}
-.box_right .txt4 p{
-  color: white;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif
-}
-.bordertxt4{
-  width: 100%;
-  height: 30px;
-  background-color: bl;
   display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 10px;
-  
-
-  
 }
-.icon i{
-  color: white;
+.right_follow .right_f_left{
+  width: 60%;
+  height: 100%;
 }
-.bordertxt4 .icon{
+.right_follow .right_follow_right{
+  width: 40%;
+  height: 100%;
   display: flex;
-  gap: 11px;
+  gap: 20px;
+  padding-top: 5px;
 }
-input{
-  outline: none;
-  border: 1px ;
-  border-bottom: 1px solid white;
-  padding: 5px 10px 5px 2px;
-  border-radius: 1px;
-  background: black;
-  font-size: 13px
-  
+.right_follow_right p{
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right_follow_right .My_icon{
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+.right_follow_right .My_icon a{
+  color: white;
 }
 .bit_container{
   width: 100%;
@@ -142,6 +136,12 @@ input{
   width: 30%;
   height: 40px;
   background-color: black;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.manu .cu a{
+  color: #EAB308;
 }
 .s_boxleft ul{
   display: flex;
@@ -165,11 +165,10 @@ a:hover{
 .icon22 i{
   color: white;
 }
-.s_boxright{
-  display: flex;
-  justify-content: end;
-  gap: 10px;
-  font-size: 13px;
+.com{
+  width: 100%;
+  height: 10px;
+  background-color: black;
 }
 .Full_pic{
   width: 100%;
@@ -190,37 +189,56 @@ a:hover{
   height: 320px;
   background-color: black;
 }
-.container_3{
-  width: 70%;
-  height: 110px;
+.Full_container_3 .add_quoat_con{
+  width: 100%;
+  height: 90px;
   background-color: black;
-  margin: 0 auto;
-  display: flex;
 }
-.quote_box{
-  width: 23.23%;
-  height: 110px;
-  background-color:black;
-  margin: 0 auto;
-  display: flex;
-}
-.quote_box i{
-  color: yellowgreen;
-  font-size: 100PX;
-  padding-left: 110px;
-}
-.latter_container{
+.add_quoat_con .Quoat_icon{
   width: 70%;
-  height: 50px;
-  background-color: black;
+  height: 100%;
   margin: 0 auto;
-  display: flex;
 }
-.latter_container p{
+.Quoat_icon .icon_in{
+  width: 10%;
+  height: 100%;
+  margin: 0 auto;
+}
+.icon_in .class_icon{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class_icon i{
+  color: #EAB308;
+  font-size: 110px;
+}
+.Full_container_3 .Quoat_con{
+  width: 100%;
+  height: 90px;
+}
+.Quoat_con .txt_b{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.txt_b .class_txt{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class_txt p{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24.2px;
-  margin-top: ;
+  font-family: 'Hanuman';
+  font-size: 25px;
+}
+.Full_container_3 .un{
+  width: 100%;
+  height: 15px;
 }
 .image_box{
   width: 70%;
@@ -385,7 +403,10 @@ a:hover{
 .box_shadow1 .box_up1{
   width: 100%;
   height: 70%;
-  background-color: brown;
+  background-color: ;
+}
+.box_down_up1 .li{
+  background-color: transparent;
 }
 .box_shadow2 .box_up2{
   width: 100%;
@@ -424,7 +445,7 @@ a:hover{
 .box_down1 .box_down_up1 li{
   width: 100%;
   height: 40%;
-  background-color: black;
+  background-color:;
   font-family: 'Hanuman', serif;
   font-size: 20px;
   padding-left: 20px;
@@ -440,7 +461,7 @@ a:hover{
 .box_down2 .box_down_up2 li{
   width: 100%;
   height: 40%;
-  background-color: black;
+  background-color:;
   font-family: 'Hanuman', serif;
   list-style-type: none;
   font-size: 20px;
@@ -455,7 +476,7 @@ a:hover{
 .box_down3 .box_down_up3 li{
   width: 100%;
   height: 40%;
-  background-color: black;
+  background-color:;
   font-family: 'Hanuman', serif;
   font-size: 20px;
   padding-left: 20px;

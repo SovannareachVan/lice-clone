@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+  }
+.B_Container{
+ width: 100%;
+ height: 150px;
+ background-color: black; 
+ display: flex;
+}
+.B_in{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.B_left ,.B_right{
+  width: 45%;
+  height: 100%;
+
+}
+.B_up, .B_down{
+  width: 100%;
+  height: 50%;
+
+}
+.B_mid{
+  width: 10%;
+  height: 100%;
+  padding-top: 5px;
+}
+.B_left p{
+  font-size: 20px;
+  color: white;
+}
+.B_up p{
+  display: flex;
+  padding-top: 40px;
+}
+.B_up P{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.B_mid .For_logo{
+  width: 100%;
+  height: 100%;
+
+
+}
+.For_logo img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.Bright, .right_search{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.right_search .right_s_right{
+  width: 40%;
+  height: 100%;
+
+  border-bottom: 2px solid white;
+}
+.s_and_s input{
+  font-size:17px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.s_and_s{
+  padding-top: 50px;
+}
+.s_and_s i{
+  color: white;
+}
+ .right_follow{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.right_follow .right_f_left{
+  width: 60%;
+  height: 100%;
+}
+.right_follow .right_follow_right{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 5px;
+}
+.right_follow_right p{
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right_follow_right .My_icon{
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+.right_follow_right .My_icon a{
+  color: white;
+}
+.bit_container{
+    width: 100%;
+    height: 40px;
+    background-color:black;
+  }
+  .bit_container .s_container{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    background-color: blue;
+  }
+  .s_container .s_boxleft{
+    width: 70%;
+    height: 40px;
+    background-color:black;
+  }
+  .s_container .s_boxright{
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .s_boxleft ul{
+    display: flex;
+    gap: 15px;
+    list-style-type:none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  ul a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: yellow;
+  }
+  .manu2 a{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .icon22 i{
+    color: white;
+  }
+  .com{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+  }
+  .manu .Ab a {
+    color: #EAB308;
+  }
+  .Last_pic{
+    width: 100%;
+    height: 640px;
+    background-color: #EAB308;
+  }
+  .Last_pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .Over_view_con{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+  }
+  .Over_view_con .Over_view{
+    width: 70%;
+    height: 100%;
+    background-color: thistle;
+    margin: 0 auto ;
+    display: flex;
+  }
+  .Over_view_left .view_text{
+    width: 100%;
+    height: 70%;
+    background-color: #2b2424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .text_in{
+    width: 80%;
+    height: 80%;
+    background-color:#2b2424;
+  }
+  .text_in .text_class{
+    width: 100%;
+    height: 100%;
+  }
+  .text_class p{
+    color: white;
+    font-size: 20.8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Over_view .Over_view_left{
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+  }
+  .Over_view .Over_view_pic{
+    width: 30%;
+    height: 100%;
+    background-color: #2b2424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Over_view_pic .view_pic{
+    width: 80%;
+    height: 80%;
+    background-color: #2b2424;
+  }
+  .view_pic .img{
+    width: 100%;
+    height: 100%;
+  }
+  .view_pic .img img{
+    width: 100%;
+    height: 100%;
+    border: 4px solid goldenrod;
+    object-fit: cover;
+  }
+  .Over_view_left .Over_view_top_con{
+    width: 100%;
+    height: 30%;
+    background-color: #2b2424;
+    display: flex;
+  }
+  .Over_view_top_con .view_top{
+    width: 70%;
+    height: 100%;
+    margin: 0  auto;
+    display: flex;
+  }
+  .view_top .view_in{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .view_in .in_left,.in_mid,.in_right{
+    width: 33.33%;
+    height: 100%;
+  }
+  .in_mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .in_mid p{
+    color: #EAB308;
+    font-size: 27px;
+  }
+  .in_left .left_up{
+    width: 100%;
+    height: 60%;
+    border-bottom: 3px solid goldenrod;
+}
+.in_right .right_up{
+    width: 100%;
+    height: 60%;
+    border-bottom: 3px solid goldenrod;
+}
+.loca_co{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+}
+.loca_co .loco_text{
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+.loco_text p{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loco_text i{
+  color: goldenrod;
+  font-size: 23px;
+}
+.tell_con{
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  display: flex;
+}
+.tell_con .tell_and_text{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.tell_and_text .tell_left,.text_right{
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+.tell_left{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.tell_left i{
+  color:goldenrod;
+  font-size: 23px;
+}
+.tell_left p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.text_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_right h2{
+  color: white;
+  font-family: 'Hanuman';
+}
+.Map_and_text_container{
+  width: 100%;
+  height: 450px;
+  display: flex;background-color: black;
+
+}
+.Map_and_text_container .Map_and_txt{
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  gap: 70px;
+}
+.Map_and_txt .Map_left,.txt_right{
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+}
+.Map_left .Map{
+  width: 100%;
+  height: 100%;
+}
+.Map iframe{
+  width: 100%;
+  height: 100%;
+}
+.txt_right .txt_left,.txt_mid,.txt_right_right{
+  width: 33.33%;
+  height: 100%;
+}
+.txt_left .Mon,.Tue,.Wed,.Thu,.Fri,.sat,.sun{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.txt_left .Mon,.Tue,.Wed,.Thu,.Fri,.sat,.sun p{
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.txt_right_right .Day1,.Day2,.Day3,.Day4,.Day5,.Day6,.Day7{
+  width: 100%;
+  height: 40.2px;
+  display: flex;align-items: center;
+}
+.txt_right_right .Day1,.Day2,.Day3,.Day4,.Day5,.Day6,.Day7 p{
+  color: white;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.M_and_V_con{
+  width: 100%;
+  height: 190px;
+  background-color: black;
+  display: flex;
+}
+.M_and_V_con .M_and_V{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.M_and_V .Misson,.Visson{
+  width: 50%;
+  height: 100%;
+}
+.Misson{
+  border-right: 1px solid white;
+}
+.Visson{
+  border-left: 1px solid white;
+}
+.Misson .M_up{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.M_up_70{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.M_up_70 .M_left,.M_mid,.M_right{
+  width: 33.33%;
+  height: 100%;
+}
+.M_mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Misson_text p{
+  color: goldenrod;
+  font-size: 32px;
+  font-family:'Hanuman';
+}
+.M_left .M_left_up{
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid goldenrod;
+}
+.M_right .M_right_up{
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid goldenrod;
+}
+.Misson .M_down{
+  width: 100%;
+  height: 50%;
+}
+/* hiiii */
+.Visson .M_up{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.M_up_70{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.M_up_70 .M_left,.M_mid,.M_right{
+  width: 33.33%;
+  height: 100%;
+}
+.M_mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Misson_text p{
+  color: goldenrod;
+  font-size: 32px;
+  font-family:'Hanuman';
+}
+.M_left .M_left_up{
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid goldenrod;
+}
+.M_right .M_right_up{
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid goldenrod;
+}
+.Visson .M_down{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.M_down .Text_vission{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.M_down .Text_mission .Text1,.Text2,.Text3{
+  display: flex;
+  justify-content: center;
+}
+.M_down .Text_mission .Text1,.Text2,.Text3 p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.7px;
+}
+.add_b{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.Loca_pic_con{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+}
+.Loca_pic_con .loca_pic{
+  width: 70%;
+  height: 96%;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+}
+.loca_pic .loca_left,.loca_pic_mid,.loca_pic_right{
+  width: 33.33%;
+  height: 100%;
+  background-color: blue;
+}
+.loca_pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Year_3_con{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+}
+.Year_3_con .Year_3{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+}
+.Year_3 .Year_3_left,.Year_3_mid,.Year_3_right{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+}
+.Year_3_left .Year{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Year_3_mid .Year{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Year_3_right .Year{
+  width: 20%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+}
+.right_line{
+  width: 80%;
+  height: 100%;
+}
+.right_line .right_line_up{
+  width: 100%;
+  height: 50%;
+  border-bottom:2px solid #EAB308 ;
+}
+.Year p{
+ color: #EAB308;
+ font-family:'Hanuman';
+ font-size: 30px;
+ font-weight: 20px;
+}
+.txt_under_con{
+  width: 100%;
+  height: 140px;
+  background-color: black;
+  display: flex
+}
+.txt_under_con .txt_under{
+  width: 70%;
+  height: 100%;
+  margin:  0 auto;
+  display: flex;
+  gap: 25px;
+}
+.txt_under .txt_under_l,.txt_under_m,.txt_under_r{
+  width: 33.33%;
+  height: 100%;
+}
+.txt_under .txt_lt{
+  width: 100%;
+  height: 100%;
+}
+.txt_lt p{
+  color: white;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-size: 17px;
+}
+.add_last_time{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #E6AB19;
+}
+.complete2{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}.Gallary{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+}
+.Gallary .ga_in{
+  width: 70%;
+  height: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  gap: 25rem;
+}
+.Gallary .ga_in .ga_left ,.ga_right{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+}
+.ga_left .Course_,.Galla,.Your_acc{
+  width: 33.33%;
+  height: 100%;
+
+}
+.ga_left p{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ga_right p{
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon2 i{
+  font-size: 30px;
+  color: yellowgreen;
+}
+.com{
+  width: 100%;
+  height: 15px;
+  background-color: black;
+}
+.com_la{
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  display: flex;
+
+
+}
+.com_la .la_in{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+.com_last2{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.last{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+}
+.last .last_in{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+
+}
+.last_in p{
+  color: white;
+  font-size:20px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.last_in .last_in_left{
+  width: 33.33%;
+  height: 100%;
+
+}
+.last_in .last_in_mid{
+  width: 33.33%;
+  height: 100%;
+
+  display: flex;
+}
+.last_in .last_in_right{
+  width: 33.33%;
+  height: 100%;
+
+}
+.icon_last{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 100px;
+  font-size: 25px;
+  color: white;
+}
+

@@ -231,7 +231,7 @@ html{
   .sign_up_con{
     height: 540px;
     width: 100%;
-    background-color: #EAB308;
+    background-color: black;
     display: flex;
   }
   .sign_up_con .sign_up{
@@ -368,3 +368,217 @@ html{
     height: 10px;
     margin-top: 10px;
 }
+.letter_con{
+    width: 100%;
+    height: 30px;
+}
+.letter_con .letter{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.letter a p{
+    text-decoration: none;
+    color: #EAB308;
+    font-family: 'Hanuman';
+    font-size: 15px;
+}
+.letter p{
+    color: black;
+    font-size: 13px;
+    font-family: 'Hanuman';
+}
+.letter a{
+    text-decoration: none;
+}
+.letter a p:hover{
+    color: brown;
+}
+.sign_btn_con{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.sign_btn_con .sign_btn{
+    width: 30%;
+    height: 50%;
+    margin: 0 auto;
+}
+.sign_btn button{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Hanuman';
+    background-color: transparent;
+    border: none;
+    background-color: #EAB308;
+}
+.sign_btn button:hover{
+    color: white;
+    background-color:black;
+}
+.oh_acc_con{
+    width: 100%;
+    height: 30px;
+}
+.oh_acc_con .oh_acc{
+    width: 85%;
+    height: 100%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.oh_acc .pp{
+    font-size: 15px;
+    font-family: 'Hanuman';
+}
+.oh_acc a{
+    text-decoration: none;
+    color: #EAB308;
+    font-size: 17px;
+    font-family: 'Hanuman';
+}
+.oh_acc a:hover{
+    color: black;
+}
+.hi{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #E6AB19;
+  }
+  .complete2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+  }.Gallary{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+  }
+  .Gallary .ga_in{
+    width: 70%;
+    height: 100%;
+  
+    margin: 0 auto;
+    display: flex;
+    gap: 25rem;
+  }
+  .Gallary .ga_in .ga_left ,.ga_right{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+  }
+  .ga_left .Course_,.Galla,.Your_acc{
+    width: 33.33%;
+    height: 100%;
+  
+  }
+  .ga_left p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .ga_right p{
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .icon2 i{
+    font-size: 30px;
+    color: yellowgreen;
+  }
+  .com{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+  }
+  .com_la{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    display: flex;
+  
+  
+  }
+  .com_la .la_in{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+  }
+  .com_last2{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+  }
+  .last{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+  }
+  .last .last_in{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+  
+  }
+  .last_in p{
+    color: white;
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .last_in .last_in_left{
+    width: 33.33%;
+    height: 100%;
+  
+  }
+  .last_in .last_in_mid{
+    width: 33.33%;
+    height: 100%;
+  
+    display: flex;
+  }
+  .last_in .last_in_right{
+    width: 33.33%;
+    height: 100%;
+  
+  }
+  .icon_last{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    font-size: 25px;
+    color: white;
+  }
+  .Course_ a{
+    text-decoration: none;
+  }
+  .Galla a{
+    text-decoration: none;
+  }
+  .Your_acc a{
+    text-decoration: none;
+  }
+  .icon_last a{
+    color: white;
+  }

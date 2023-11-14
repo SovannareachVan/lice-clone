@@ -111,6 +111,11 @@ html{
 .right_follow_right .My_icon a{
   color: white;
 }
+.com{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+  }
 .bit_container{
     width: 100%;
     height: 40px;
@@ -157,14 +162,6 @@ html{
   }
   .icon22 i{
     color: white;
-  }
-  .com{
-    width: 100%;
-    height: 10px;
-    background-color: black;
-  }
-  .manu .Tra a {
-    color: #EAB308;
   }
   .Addd{
     width: 100%;
@@ -231,122 +228,339 @@ html{
   
     border-bottom: 3px solid goldenrod;
   }
-  .Albums_container{
+  .In_out_con{
     width: 100%;
-    height: 300px;
-    /* background-color: black; */
-    display: flex;
+    height: 540px;
+    background-color: black;
   }
-  .Albums_container .Three_al{
-    width: 70%;
+.In_out_con .In_out{
+    width: 40%;
     height: 100%;
-    /* background-color: black; */
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.In_out .sign_in{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+}
+.sign_in .sign_in_txt_con{
+    width: 100%;
+    height: 23%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.sign_in_txt_con .sign_in_txt{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_in_txt p{
+    color: black;
+    font-family: 'Hanuman';
+    font-size: 30px
+}
+.Email_con{
+    width: 100%;
+    height: 45px;
+}
+.space_con{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.Email_con .Email{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(240, 216, 216);
+    margin: 0 auto;
+    border: 2px solid rgb(189, 173, 173);
+    padding: 0px 0px 0px 20px;
+    border-radius: 5px;
+}
+.Email input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgb(240, 216, 216);
+    outline: none; 
+    font-size: 18px;
+}
+.sign_in .add_space{
+    width: 100%;
+    height: 30px;
+}
+.sign_in .rem_and_forget_con{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.rem_and_forget_con .rem_and_forget{
+    width: 87%;
+    height: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
-  }
-  .Three_al .al_left{
-    width: 33.33%;
+    
+}
+.rem_and_forget .rem,.forget{
+    width: 50%;
     height: 100%;
-    background-color: thistle;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-  }
-  .Three_al .al_left .al_left_bor
-  {
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-    border: 2px solid goldenrod;
-    position: absolute;
+    gap: 10px;
+}
+.rem input{
+    width: 17px;
+    height: 17px;
+}
+.rem p{
+    font-size: 15px;
+    font-family: 'Hanuman';
+}
+.rem_and_forget .forget{
+    justify-content: end;
+}
+.forget a{
+    text-decoration: none;
+}
+.forget p{
+    color: #EAB308;
+    font-size: 15px;
+    font-family: 'Hanuman';
+}
+.forget p:hover{
+    color: black;
+}
+.sign_in .sign_btn_con{
+    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  .Three_al .al_left img{
+}
+.sign_btn_con .sign_btn{
+    width: 30%;
+    height: 50%;
+    margin: 0 auto;
+}
+.sign_btn button{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-  }
-  .al_left_bor .Product{
-    width: 90%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    
-  }
-  .Product button{
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Hanuman';
     background-color: transparent;
     border: none;
-    font-size: 50px;
-    color:white;
-    z-index: 99;
-  }
-  .Product button:hover{
-    color:goldenrod;
-  }
-  .Overlay{
-    width: 91%;
-    height: 90%;
-    background-color: rgba(0, 139, 139, 0.925);
-    position: absolute;
-    cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0;
+    background-color: #EAB308;
+}
+.sign_btn button:hover{
+    color: white;
+    background-color:black;
+}
+.sign_in .Dont_sign_con{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.Dont_sign_con .Dont_have p{
+    color: rgb(95, 90, 90);
+    font-size: 16px;
+    font-family: 'Hanuman';
+}
+.Dont_sign_con .sign_up_txt p{
+    color: black;
+    font-size: 16px;
+    font-family: 'Hanuman';
+}
+.sign_up_txt a{
+    text-decoration: none;
+}
+.sign_up_txt p:hover{
+    color: #EAB308;
+}
+.sign_in .Sign_up_with_con{
+    width: 100%;
+    height: 40px;
+}
+.Sign_up_with_con .sign_up_with{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.sign_up_with .bord_l,.bord_r{
+    width: 30%;
+    height: 100%;
+}
+.bord_l .bl_u{
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid gray;
+}
+.bord_r .bl_u{
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid gray;
+}
+.sign_up_with .bord_m{
+    width: 40%;
+    height: 100%;
+
     display: flex;
     justify-content: center;
-    align-items: end;
-    border-radius: 10px;
-  }
-  .al_left:hover .Overlay{
-    opacity: 0.8;
-  }
-  .Overlay .View_photo{
-    width: 90%;
-    height:15%;
-    margin-bottom: 15%;
-    display: flex;
-  }
-  .Train_back_img{
+    align-items: center;
+}
+.bord_m .sign_up_with_txt{
     width: 100%;
-    height: 750px;
-    background-color: #EAB308;
-    background-image: url('../Html/Image/imgfix.jpg');
-    background-size:100% ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bord_m p{
+    color: black;
+    font-size: 19px;
+    font-family: 'Hanuman';
+    font-weight: 10px;
+}
+.sign_in .other{
+    width: 100%;
+    height: 20px;
+}
+.sign_in .Face_and_google_con{
+    width: 100%;
+    height: 40px;
+}
+.Face_and_google_con .Face_and_google{
+    width: 85%;
+    height: 100%;
+    margin:  0 auto;
+    display: flex;
+    gap: 20px;
+}
+.Face_and_google .Facebook{
+    width: 50%;
+    height: 100%;
+    background-color: #1674EA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.Facebook a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.Face_and_google .google{
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(122, 118, 112);
+    background-color: rgb(226, 226, 221);
+}
+.google a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black
+}
+.In_out .sign_up{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    position: relative;
+}
+.sign_up .cla_img{
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.cla_img img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-  }
-  .Under_v_co{
+}
+.sign_up .bl{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.199);
+    position: absolute;
+}
+.bl .sign_up_p{
     width: 100%;
     height: 60px;
     display: flex;
-  }
-  .Under_v_co .Under_v{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    gap: 27.2px;
-  }
-.Under_v .v_left,.v_mid,.v_right{
-    width: 33.33%;
-    height: 100%;
+    justify-content: center;
+    margin-top: 50%;
 }
-.Under_v{
+.sign_up_p p{
     color: white;
-    font-size: 17px;
-    font-family: 'Hanuman';
+    font-family:'Hanuman';
+    font-size: 30px;
 }
-.add_vi {
+.bl .Enter_p,.jour{
     width: 100%;
-    height: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Enter_p p{
+    color: white;
+    font-family: 'Hanuman';
+    font-family: 25px;
+}
+.bl .jour p{
+    color: white;
+    font-family: 'Hanuman';
+    font-family: 25px;
+}
+.bl .sign_up_btn_con{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sign_up_btn_con .up_btn_in{
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+}
+.up_btn_in button{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: 'Hanuman';
+    background-color: transparent;
+}
+.up_btn_in button:hover{
+    background-color: white;
+    color: black;
+}
+.under_sign{
+    width: 100%;
+    height: 100px;
     background-color: black;
-  }
-  .line{
+}
+.line{
     width: 100%;
     height: 3px;
     background-color: #E6AB19;

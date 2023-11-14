@@ -524,20 +524,26 @@ a:hover{
   display: flex;
   align-items: center;
 }
+.add_up{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
 .white_button_container .button{
   width: 70%;
-  height: 40px;
+  height: 45px;
   /* background-color: white; */
   display: flex;
   margin: 0 auto;
 
 }
 .button .View_more{
-  height: 40px;
+  height: 45px;
   width: 118px;
   /* background-color: white; */
   margin: 0 auto;
   position:a;
+  
   
 }
 .View_more .My_button{
@@ -548,6 +554,7 @@ a:hover{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  border: none;
 }
 .buttom-1:hover{
   color: black;
@@ -1157,7 +1164,11 @@ a:hover{
   height: 50px;
   background-color: black;
 }
-.Gallary{
+.complete2{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}.Gallary{
   width: 100%;
   height: 50px;
   background-color: black;
@@ -1166,7 +1177,6 @@ a:hover{
 .Gallary .ga_in{
   width: 70%;
   height: 100%;
-
   margin: 0 auto;
   display: flex;
   gap: 25rem;
@@ -1176,6 +1186,15 @@ a:hover{
   height: 100%;
 
   display: flex;
+}
+.Course_ a{
+  text-decoration: none;
+}
+.Galla a{
+  text-decoration: none;
+}
+.Your_acc a{
+  text-decoration: none;
 }
 .ga_left .Course_,.Galla,.Your_acc{
   width: 33.33%;
@@ -1264,5 +1283,6 @@ a:hover{
   font-size: 25px;
   color: white;
 }
-
-
+.icon_last a{
+  color: white;
+}

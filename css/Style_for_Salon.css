@@ -633,5 +633,17 @@ a:hover{
   font-size: 25px;
   color: white;
 }
+.Course_ a{
+  text-decoration: none;
+}
+.Galla a{
+  text-decoration: none;
+}
+.Your_acc a{
+  text-decoration: none;
+}
+.icon_last a{
+  color: white;
+}
 
 

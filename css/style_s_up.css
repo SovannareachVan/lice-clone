@@ -243,28 +243,128 @@ html{
     overflow: hidden;
     border-radius: 30px;
   }
-  .sign_up .pic,.signup{
+  .sign_up .left_pic{
     width: 50%;
     height: 100%;
-    background-color: aquamarine;
-
-  }
-  .sign_up{
+    background-color: blue;
+    display: flex;
     position: relative;
   }
-
-  .sign_up .for_pic{
+  .sign_up .signup_right{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+  }
+  .left_pic .pic{
     width: 100%;
     height: 100%;
   }
-  .for_pic img{
+  .pic img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .pic .bl{
+  .left_pic .Welcom{
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color:rgba(0, 0, 0, 0.199);
     position: absolute;
+  }
+  .Welcom .welcom_p{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+.welcom_p p{
+    color: white;
+    font-family:'Hanuman';
+    font-size: 30px;
+}
+.Welcom .Enter_p,.jour{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Enter_p p{
+    color: white;
+    font-family: 'Hanuman';
+    font-family: 25px;
+}
+.Welcom .jour p{
+    color: white;
+    font-family: 'Hanuman';
+    font-family: 25px;
+}
+.Welcom .sign_up_btn_con{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sign_up_btn_con .up_btn_in{
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+}
+.up_btn_in button{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: 'Hanuman';
+    background-color: transparent;
+}
+.up_btn_in button:hover{
+    background-color: white;
+    color: black;
+}
+.signup_right .sign_up_txt{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_up_txt p{
+    color: black;
+    font-family: 'Hanuman';
+    font-size: 30px;
+
+}
+.Email_con{
+    width: 100%;
+    height: 45px;
+}
+.space_con{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.Email_con .Email{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(240, 216, 216);
+    margin: 0 auto;
+    border: 2px solid rgb(189, 173, 173);
+    padding: 0px 0px 0px 20px;
+    border-radius: 5px;
+}
+.Email input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgb(240, 216, 216);
+    outline: none; 
+    font-size: 18px;
+}
+.space_con{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
 }

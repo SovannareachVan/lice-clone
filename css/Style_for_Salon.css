@@ -301,7 +301,6 @@ a:hover{
   .In_left .small_bor{
     width: 80px;
     height: 80px;
-    background-color:;
     position: absolute;
     margin-top: 135px;
     border-radius: 50%;
@@ -406,7 +405,6 @@ a:hover{
 }
 .Line_yellow .L_in{
   width: 50%;
-  height:;
   margin: 0 auto;
   border-top: 2px solid goldenrod;
 }
@@ -645,5 +643,28 @@ a:hover{
 .icon_last a{
   color: white;
 }
+.slideshow-container {
+  width: 100%;
+  height: 640px;
+}
 
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.add_slide{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.slide_course{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
 

@@ -11,6 +11,10 @@
 
 <body>
   <header>
+    <!-- slidw -->
+    
+    <!-- side -->
+    <button onclick="scrollToTop()" id="backToTopBtn"><div class="my_btn"><i class="fa-solid fa-angles-up"></i></div></i></button>
     <div class="B_Container">
       <div class="B_in">
         <div class="B_left">
@@ -73,13 +77,22 @@
         </div>
       </div>
     </div>
-      <div class="Full_pic">
-        <div class="box_pic">
-            <div class="Big_Image">
-              <img src="../Html/Image/First.jpg" alt="">
-            </div>    
-        </div>
+    <div class="slideshow-container">
+      <div class="slide">
+        <img src="./Html/Image/First.jpg" alt="">
       </div>
+      <div class="slide">
+        <img src="./Html/Image/Big sec.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="./Html/Image/big th.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="./Html/Image/big 4.jpg" alt="">
+      </div>
+
+    </div>
+      <div class="add_slide"></div>
     </div>
     <div class="Full_container_3">
       <div class="add_quoat_con">
@@ -103,12 +116,33 @@
     </div>
     <div class="video_container">
       <div class="video_left">
+        <div class="play_btn_con">
+          <div class="play_btn">
+            <a href="https://youtu.be/UgVPai0yOjs?si=Y4EIVojV5xDYlz-k" target="_blank">
+              <div class="bor_btn"><button><i class="fa-solid fa-circle-play"></i></button></div>
+            </a>
+          </div>
+        </div>
         <img src="../Html/Image/Frist_video.png" alt="">
       </div>
       <div class="video_middle">
+        <div class="play_btn_con">
+          <div class="play_btn">
+            <a href="https://youtu.be/ExRGJAzoWuM?si=pvLe58K4kJ8J4g74" target="_blank">
+              <div class="bor_btn"><button><i class="fa-solid fa-circle-play"></i></button></div>
+            </a>
+          </div>
+        </div>
           <img src="../Html/Image/second_video.png" alt="">
       </div>
       <div class="video_right">
+        <div class="play_btn_con">
+          <div class="play_btn">
+            <a href="https://youtu.be/qt6NuhBqm5g?si=4VHW7aBIK7Khi-k4" target="_blank">
+              <div class="bor_btn"><button><i class="fa-solid fa-circle-play"></i></button></div>
+            </a>
+          </div>
+        </div>
           <img src="../Html/Image/Third_video.png" alt="">
       </div>
     </div>
@@ -140,6 +174,12 @@
           <div class="box_shadow">
             <div class="box_shadow1">
               <div class="box_up1">
+                <div class="overlay_in">
+                  <a href="Html/Sign_in.html">
+                    <div class="Rejister_con"><p>Register</p></div>
+                    <div class="Now_con"><p>NOW</p></div>
+                  </a>
+                </div>
                 <img src="../Html/Image/Box1.jpg" alt="">
               </div>
               <div class="box_down1">
@@ -152,12 +192,18 @@
                 </div>
               </div>
             </div>
-            <div class="box_shadow2">
-              <div class="box_up2">
+            <div class="box_shadow1">
+              <div class="box_up1">
+                <div class="overlay_in">
+                  <a href="Html/Sign_in.html">
+                    <div class="Rejister_con"><p>Register</p></div>
+                    <div class="Now_con"><p>NOW</p></div>
+                  </a>
+                </div>
                 <img src="../Html/Image/box2.jpg" alt="">
               </div>
-              <div class="box_down2">
-                <div class="box_down_up2">
+              <div class="box_down1">
+                <div class="box_down_up1">
                   <ul><li><a href="">ASK បច្ចេកទេស Wet Balayage</a></li></ul>
                 </div>
                 <div class="box_down_down2">
@@ -168,6 +214,12 @@
             </div>
             <div class="box_shadow3">
               <div class="box_up3">
+                <div class="overlay_in">
+                  <a href="Html/Sign_in.html">
+                    <div class="Rejister_con"><p>Register</p></div>
+                    <div class="Now_con"><p>NOW</p></div>
+                  </a>
+                </div>
                 <img src="../Html/Image/box3.jpg" alt="">
               </div>
               <div class="box_down3">
@@ -447,5 +499,6 @@
       </div>
     </footer>
   </header>
+  <script src="./JAVA/main.js"></script>
 </body>
 </html>

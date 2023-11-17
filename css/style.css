@@ -1414,3 +1414,77 @@ border: none;
   height: 100px;
   background-color: black;
 }
+.partner_top_left .new{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new .image_new{
+  width: 80%;
+  height: 80%;
+}
+.image_new img{
+  width: 100%;
+  object-fit: cover;
+}
+.partner_top_right .new2{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new2 .image_new2{
+  width: 80%;
+  height: 80%;
+}
+.image_new2 img{
+  width: 100%;
+  object-fit: cover;
+}
+.partner_btm_left .new3{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new3 .image_new3{
+  width: 80%;
+  height: 80%;
+}
+.image_new3 img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.partner_btm_right .new4{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new4 .image_new4{
+  width: 80%;
+  height: 80%;
+}
+.image_new4 img{
+  width: 100%;
+  object-fit: cover;
+}

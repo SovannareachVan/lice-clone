@@ -127,6 +127,9 @@ html{
     margin: 0 auto;
     display: flex;
   }
+  .ga_right p:hover{
+    color: #EAB308;
+  }
   .s_container .s_boxleft{
     width: 70%;
     height: 40px;

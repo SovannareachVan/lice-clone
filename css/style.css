@@ -119,6 +119,7 @@ html{
   width: 100%;
   height: 40px;
   background-color:black;
+
 }
 .bit_container .s_container{
   width: 70%;
@@ -1377,7 +1378,7 @@ border: none;
   font-size: 14px;
   border: none;
   outline: none;
-  background-color: rgb(31, 30, 30);
+  background-color:rgba(0, 0, 0, 0.24);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -1387,6 +1388,7 @@ border: none;
 
 #backToTopBtn.show {
   display: block;
+
 }
 .my_btn{
   color: goldenrod;
@@ -1488,7 +1490,7 @@ border: none;
   object-fit: cover;
 }
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb{
   background-color: #E6AB19;
@@ -1497,4 +1499,12 @@ border: none;
 ::-webkit-scrollbar-track{
   background-color: black;
   border-radius: 10px;
+}
+.ga_right p:hover{
+  color: #EAB308;
+}
+@media only screen and (max-width:600px){
+  .B_Container{
+    display: none;
+  }
 }

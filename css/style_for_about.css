@@ -122,6 +122,9 @@ html{
     margin: 0 auto;
     display: flex;
   }
+  .ga_right p:hover{
+    color: #EAB308;
+  }
   .s_container .s_boxleft{
     width: 70%;
     height: 40px;
@@ -757,7 +760,7 @@ html{
   color: white;
 }
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 5px;
 }
 ::-webkit-scrollbar-thumb{
   background-color: #E6AB19;

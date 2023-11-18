@@ -132,6 +132,9 @@ html{
     height: 40px;
     background-color:black;
   }
+  .ga_right p:hover{
+    color: #EAB308;
+  }
   .s_container .s_boxright{
     width: 30%;
     height: 40px;

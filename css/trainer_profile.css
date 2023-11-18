@@ -234,6 +234,9 @@ html{
     display: flex;
     background-color: black;
   }
+  .ga_right p:hover{
+    color: #EAB308;
+  }
   .Profile .Profile_3_co{
     width: 70%;
     height: 100%;

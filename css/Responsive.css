@@ -6,11 +6,10 @@ body {
 }
 
 /* Media query for screens up to 600px wide */
-@media only screen and (max-width: 1200px) {
+@media(max-width: 1199.98px){
 
     .s_and_s input{
         font-size: 14px;
-        width: ;
         width: 90%;
     }
     .s_and_s a{

@@ -75,7 +75,7 @@ html{
   border-bottom: 2px solid white;
 }
 .s_and_s input{
-  font-size:12px;
+  font-size:14px;
   border: none;
   background-color: black;
   color: white;
@@ -85,7 +85,7 @@ html{
 }
 .s_and_s i{
   color: white;
-  font-size: 14px;
+  font-size: 10px;
 }
  .right_follow{
   width: 100%;

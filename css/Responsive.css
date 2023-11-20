@@ -1,4 +1,6 @@
 /* Default styles for larger screens */
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&display=swap');
 body {
     font-size: 16px;
 }
@@ -27,7 +29,11 @@ body {
         height: 440px;
     }
     .icon_in i{
-        font-size: 90px;
+        font-size: 70px;
+    }
+    .Middle_middle p{
+        font-size: 19.3px;
+        
     }
     
     

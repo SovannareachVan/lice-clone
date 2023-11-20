@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -52,8 +54,8 @@ html{
   display: flex;
   padding-top: 40px;
 }
-.B_up P{
-  font-family: Arial, Helvetica, sans-serif;
+.B_up ,.B_down p{
+  font: 14px Roboto,sans-serif,Hanuman,sans-serif;
 }
 
 .B_mid .For_logo{
@@ -234,7 +236,7 @@ a:hover{
   height: 90px;
 }
 .Quoat_con .txt_b{
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
 }
@@ -247,8 +249,8 @@ a:hover{
 }
 .class_txt p{
   color: white;
-  font-family: 'Hanuman';
-  font-size: 25px;
+  font: 23.3px Roboto,sans-serif,Hanuman,sans-serif;
+  text-align: justify;
 }
 .Full_container_3 .un{
   width: 100%;
@@ -262,7 +264,7 @@ a:hover{
   display: flex;
 }
 .Curcle_image{
-  width: 23.23%;
+  width: 20%;
   height: 110px;
   background-color:black;
   margin: 0 auto;
@@ -272,7 +274,7 @@ a:hover{
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid yellowgreen;
+  border: 4px solid goldenrod;
 }
 .video_container{
   width: 100%;

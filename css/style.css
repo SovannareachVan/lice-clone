@@ -113,12 +113,15 @@ html{
 }
 .right_follow_right p{
   color: white;
+  width: 50%x;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .right_follow_right .My_icon{
   display: flex;
-  gap: 20px;
+  width: 50%;
+  gap: 13px;
+  height: 100%;
   font-size: 14px;
 }
 .right_follow_right .My_icon a{
@@ -247,10 +250,10 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
-.class_txt p{
+.class_txt h1{
   color: white;
   font: 23.3px Roboto,sans-serif,Hanuman,sans-serif;
-  text-align: justify;
+  text-align: center
 }
 .Full_container_3 .un{
   width: 100%;
@@ -362,19 +365,19 @@ border: none;
   margin: 0 auto;
 }
 .Course .course_left{
-  width: 33.33%;
+  width: 30%;
   height: 100px;
   background-color: white;
 }
 .Course .course_middle{
-  width: 33.33%;
+  width: 50%;
   height: 100px;
   background-color: white;
   display: flex;
   margin: 0 auto;
 }
 .Course .course_right{
-  width: 33.33%;
+  width: 33%;
   height: 100px;
   background-color: white;
 }
@@ -388,23 +391,24 @@ border: none;
   width: 100%;
   height: 65%;
   background-color: white;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .course_middle .Middle_middle{
-  width: 33.33%;
+  width: 40%;
   height: 100px;
   background-color: white;
   display: flex;
   margin: 0 auto;
 }
 .Middle_middle p{
-  color: yellowgreen;
+  color:#EAB308;
   display: flex;
   margin: 0 auto;
   padding-top: 40px;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 2rem;
+  font-family: Robot,sans-serif;
   font-weight: 700;
 }
 .course_middle .Middle_right{
@@ -416,7 +420,7 @@ border: none;
   width: 100%;
   height: 65%;
   background-color: white;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 
 }
 .shadow_container{
@@ -546,7 +550,7 @@ border: none;
   height: 40%;
 
   font-family: 'Hanuman', serif;
-  font-size: 20px;
+  font-size: 14px;
   padding-left: 20px;
   padding-top: 20px;
   list-style-type: none;
@@ -574,46 +578,88 @@ border: none;
 .box_down3 .box_down_up3 li{
   width: 100%;
   height: 40%;
-
   font-family: 'Hanuman', serif;
-  font-size: 20px;
-  padding-left: 20px;
+  font-size: 15px;
+  padding-left: 18px;
   padding-top: 20px;
   list-style-type: none;
+  display: flex;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .box_down_down1 i{
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   padding-left: 20px;
-
+}
+.box_down_down1{
+  display: flex;
+}
+.box_down_down2{
+  display: flex;
+}
+.box_down_down3{
+  display: flex;
+}
+.a_icon{
+  padding-left: 70px;
+  padding-top: 3px;
+}
+.a_icon22{
+  padding-left: 70px;
+  padding-top: 3px;
+}
+.box_down_down2 .a_icon22 i{
+  color: #EAB308;
+  font-size: 20px;
+}
+.box_down_down3 .a_icon i{
+  color: #EAB308;
+  font-size: 20px;
+}
+.new_icon i{
+  padding-left: 90px;
+  background-color: transparent;
+  padding-top: 3px;
+  font-size: 20px;
+  color: #EAB308;
 }
 .box_down_down2 i{
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   padding-left: 20px;
 }
 .box_down_down3 i{
   color: white;
-  font-size: 20px;
+  font-size:17px;
   padding-left: 20px;
 }
 .box_down_down1 p{
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   display: inline-block;
   padding-left: 10px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .box_down_down2 p{
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   display: inline-block;
   padding-left: 10px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  display: flex;
 }
 .box_down_down3 p{
   color: white;
-  font-size: 20px;
+  font-size: 17px;
   display: inline-block;
   padding-left: 10px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  display: flex;
 }
 .white_button_container{
   width: 100%;
@@ -666,7 +712,7 @@ border: none;
 .Cover_image{
   width: 100%;
   height: 384px;
-  background-color: gray;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -675,6 +721,10 @@ border: none;
 .Cover_image{
   background-image: url('../Html/Image/GirlImage.jpg');
   background-size:100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .Cover_image .in_image{
   width: 70%;
@@ -693,9 +743,8 @@ border: none;
 
 }
 .image_up .image_up_middle{
-  width:40%;
+  width:60%;
   height: 100%;
- 
   display: flex;
 }
 .image_up .image_up_right{
@@ -705,22 +754,21 @@ border: none;
 }
 .image_up_middle .left_blue{
   height: 75%;
-  width: 33.33%;
- 
-  border-bottom: 2px solid black;
+  width: 35%;
+  border-bottom: 1px solid black;
 }
 .image_up_middle .middle_blue{
   height: 75%;
-  width: 33.33%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3D3D3D;
+  text-align: center;
 }.image_up_middle .right_blue{
   height: 75%;
-  width: 33.33%;
+  width: 35%;
  
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 .middle_blue p{
   color: yellowgreen;
@@ -792,52 +840,54 @@ border: none;
   display: flex;
 }
 .leftup p{
-  font-size:40px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
   margin: 0 auto;
   padding-top: 60px;
-  font-family: 'Hanuman', serif;
-  font-weight: 40px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .middleup p{
   font-size:40px;
   margin: 0 auto;
   padding-top: 60px;
-  font-family: 'Hanuman', serif;
-  font-weight: 40px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-weight: 700;
 }
 .rightup p{
   font-size:40px;
   margin: 0 auto;
   padding-top: 60px;
-  font-family: 'Hanuman', serif;
-  font-weight: 40px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-weight: 700;
 }
 .leftdown{
   display: flex;
 }
 .leftdown p{
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500px;
   margin: 0 auto;
   padding-top: 20px;
-  font-family: 'Hanuman', serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .middledown{
   display: flex;
 }
 .middledown p{
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
   padding-top: 20px;
-  font-family: 'Hanuman', serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .rightdown{
   display: flex;
 }
 .rightdown p{
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
   padding-top: 20px;
-  font-family: 'Hanuman', serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .Black_container{
   width: 100%;
@@ -865,20 +915,20 @@ border: none;
 }
 .salon_partner .partner_left{
   height: 100%;
-  width: 25%;
+  width: 20%;
 }
 .salon_partner .partner_middle{
   height: 100%;
-  width: 50%;
+  width: 60%;
 }
 .salon_partner .partner_middle{
   height: 100%;
-  width: 50%;
+  width: 60%;
   display: flex;
 }
 .salon_partner .partner_right{
   height: 100%;
-  width: 25%;
+  width: 20%;
 }
 .partner_middle .p_m_left{
   height: 100%;
@@ -886,7 +936,7 @@ border: none;
 }
 .partner_middle .p_m_middle{
   height: 100%;
-  width: 40%;
+  width: 70%;
 
 }
 .partner_middle .p_m_right{
@@ -896,27 +946,29 @@ border: none;
 }
 .p_m_left .m_left_up{
   width: 100%;
-  height: 60%;
+  height: 50%;
 
   border-bottom: 2px solid white;
 }
 .p_m_middle .m_middle_up{
   width: 100%;
-  height: 60%;
+  height: 70%;
   display: flex;
 }
 .p_m_right .m_right_up{
   width: 100%;
-  height: 60%;
+  height: 50%;
   border-bottom: 2px solid white;
 }
 .m_middle_up p{
   margin: 0 auto;
-  font-size: 31px;
+  font-size: 25px;
   font-weight: 33px;
   color: white;
-  font-family: 'Hanuman', serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
   padding-top: 58px;
+  text-align: center;
+  align-items: end;
 }
  .partner_section{
   width: 70%;
@@ -960,8 +1012,17 @@ border: none;
 }
 .partner_top_left .box_down ,.partner_top_right .box_up_right{
   width: 100%;
-
-
+}
+.b2{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.b2 p{
+  font-size: 30px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  color: white;
 }
 .partner_top_left .box_up img ,.partner_top_right .box_up_right img{
   width: 100%;
@@ -1416,7 +1477,7 @@ border: none;
 .slideshow-container {
   width: 100%;
   height: 560px;
-  background-color: #E6AB19;
+  background-color: black;
 }
 
 .slide {

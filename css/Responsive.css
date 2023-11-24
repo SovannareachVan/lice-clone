@@ -6,7 +6,7 @@ body {
 }
 
 /* Media query for screens up to 600px wide */
-@media(min-width:992px){
+@media(min-width:1024px){
 
     .s_and_s input{
         font-size: 14px;

@@ -12,6 +12,9 @@ html{
  background-color: black; 
  display: flex;
 }
+.Container {
+  width: 100%;
+}
 .B_in{
   width: 70%;
   height: 100%;

@@ -66,4 +66,22 @@ body {
         margin-bottom: 50px;
     }
 }
+@media(max-width:1440px){
+    .ga_in .ga_left{
+        width: 80%!important;
+    }
+    .ga_left .Course_ ,.Your_acc{
+        width: 70%;
+    }
+}
+@media(max-width:1024px){
+    .ga_in .ga_left{
+        width: 100%!important;
+    }
+    .ga_left .Course_ ,.Your_acc{
+        width: 90%;
+    }
+}
+
+
 ​

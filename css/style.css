@@ -1060,7 +1060,7 @@ border: none;
   border: 3px solid white;
   max-width: 100%;
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .text-block-img .text{
   width: 100%;
@@ -1086,7 +1086,7 @@ border: none;
   position: absolute;
   max-width: 100%;
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .buttom-group .svg-wraper{
   width: 320px;
@@ -1106,7 +1106,7 @@ border: none;
   max-width: 100%;
   height: auto;
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .svg img{
   position: absolute;
@@ -1198,7 +1198,6 @@ border: none;
   width: 150px;
   margin-top: 15px;
   border-width: 1px;
-
 }
 .more_con{
   width: 100%;

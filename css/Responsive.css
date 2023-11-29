@@ -73,6 +73,9 @@ body {
     .ga_left .Course_ ,.Your_acc{
         width: 70%;
     }
+    .Yellow_up2{
+        width:70px;
+    }
 }
 @media(max-width:1024px){
     .ga_in .ga_left{

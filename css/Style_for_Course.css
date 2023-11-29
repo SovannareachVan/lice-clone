@@ -203,7 +203,7 @@ a:hover{
   margin-left: 15px;
   margin-right: 15px;
   color: goldenrod;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2rem;
   text-align: center;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
@@ -240,11 +240,50 @@ a:hover{
   height: 100%;
   background-color: #211D1D;
 }
+.left_2_left{
+  display: flex;
+  position: relative;
+}
 .left_2_left img{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+ .left_2_left .reje-con{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 85%;
+}
+.reje-con .reje{
+  width: 45%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reje button{
+  font-weight: 700;
+  border: 1px solid #fff;
+    background-color: #ffc107;
+    color: #fff;
+    box-shadow: none;
+    padding: 3px 6px;
+    border-radius: 70px;
+    font-size: 13px;
+
+}
+.reje button:hover{
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-color: #d39e00;
+}
+
+
+
+
+
 .right_2_right .Yellow_up{
   width: 100%;
   height: 35px;
@@ -260,13 +299,13 @@ a:hover{
 .right_2_right .Yellow_up2 ,.Yellow_up3{
   width: 100%;
   height: 60px;
-  overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: initial;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
   display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: initial;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
   text-align: center;
 }
 .Yellow_up2,.Yellow_up3 p{
@@ -330,15 +369,15 @@ a:hover{
 .Number_con .Number{
   width: 10%;
   height: 100%;
-  background-color: red;
+  background: rgba(239, 187, 25, 0.1);
   margin: 0 auto;
   display: flex;
   border-radius: 7px;
 }
 .Number_con .Number2{
-  width: 10%;
+  width: 12%;
   height: 100%;
-  background-color: red;
+  background: rgba(239, 187, 25, 0.1);
   margin: 0 auto;
   display: flex;
   border-radius: 7px;
@@ -349,6 +388,7 @@ a:hover{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 5px;
+  text-align: center;
 }
 .Number2 P{
   font-size: 15px;
@@ -483,7 +523,6 @@ a:hover{
   width: 100%;
   height: 12%;
   background-color: #231F20;
-  display: flex;
   justify-content: center;
 }
 .P_mid .Ly_so{
@@ -491,7 +530,6 @@ a:hover{
   height: 100%;
   background-color: #231F20;
   margin: 0 auto;
-  border-bottom: 3px solid goldenrod;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -499,13 +537,23 @@ a:hover{
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.line_ly_c{
+  width: 100%;
+  height: 2px;
+  background-color: #231F20;
+}
+.line_ly_c .line_ly{
+  width: 40%;
+  height: 100%;
+  background-color: goldenrod;
+  margin: 0 auto;
+}
 .P_mid .Thet_piseth{
-  width: 50%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
   background-color: #231F20;
   display: flex;
-  border-bottom: 3px solid goldenrod;
   align-items: center;
   justify-content: center;
   color: white;
@@ -513,13 +561,12 @@ a:hover{
   font-family: Arial, Helvetica, sans-serif;
 }
 .P_mid .Pen_dara{
-  width: 60%;
+  width: 80%;
   height: 100%;
   align-items: center;
   justify-content: center;
   background-color: #231F20;
   display: flex;
-  border-bottom: 3px solid goldenrod;
   color: white;
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
@@ -575,8 +622,8 @@ a:hover{
   display: flex;
   align-items: center;
   color: white;
-  font-size:20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size:18px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .Down_text .Skill{
   margin: 20px 0;
@@ -623,6 +670,7 @@ a:hover{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   border: none;
+  border: 1px solid goldenrod;
 }
 .buttom-1:hover{
   color: black;

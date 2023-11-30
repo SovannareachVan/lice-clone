@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -279,7 +282,7 @@ a:hover{
   .al_left_bor .Product{
     width: 90%;
     height: 15%;
-    background-color: rgba(240, 248, 255, 0.514);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     border: 1px solid white;
     display: flex;
@@ -287,24 +290,31 @@ a:hover{
     align-items: center;
   }
   .Product p{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.616);
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    text-align: center;
+    font-weight: 700;
   }
   .Overlay{
     width: 91%;
     height: 90%;
-    background-color: rgba(0, 139, 139, 0.925);
+    background-color: rgba(88, 84, 84, 0.705);
     position: absolute;
     cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: end;
     border-radius: 10px;
+    transform: rotate(50deg);
   }
+
+ 
   .al_left:hover .Overlay{
-    opacity: 0.8;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    transform: unset;
   }
   .Overlay .View_photo{
     width: 90%;
@@ -322,8 +332,8 @@ a:hover{
     width: 100%;
     border-radius: 10px;
     border: none;
-    background-color: rgba(3, 201, 201, 0.87);
-    color: white;
+    color: white;background-color: transparent;
+    border: 1px solid white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
@@ -406,10 +416,10 @@ a:hover{
 .Video_left .Overlay2{
   width: 91%;
   height: 90%;
-  background-color: rgba(0, 139, 139, 0.925);
+  background-color: rgba(88, 84, 84, 0.705);
   position: absolute;
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
+  transform: rotate(50deg);
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -418,7 +428,9 @@ a:hover{
   z-index: 20;
 }
 .Video_left:hover .Overlay2{
-  opacity: 0.8;
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+  transform: unset;
 }
 .Overlay2 .View_video{
   width: 90%;
@@ -436,7 +448,8 @@ a:hover{
   width: 100%;
   border-radius: 10px;
   border: none;
-  background-color: rgba(3, 201, 201, 0.87);
+  background-color: transparent;
+  border: 1px solid white;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;

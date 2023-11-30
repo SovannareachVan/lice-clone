@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -188,6 +189,10 @@ html{
     background-color: black;
     display: flex;
   }
+  .bb{
+    width:100%;
+    height: 20px;
+  }
   .Over_view_con .Over_view{
     width: 70%;
     height: 100%;
@@ -215,16 +220,78 @@ html{
   }
   .text_class p{
     color: white;
-    font-size: 20.8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
   }
   .Over_view .Over_view_left{
     width: 70%;
     height: 100%;
-    background-color: blue;
+    background-color: #2b2424;
+  }
+  .con-bor{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2424;
+  }
+  .con-bor .Border-wraper{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-weight: bolder;
+      justify-content: center;
+  }
+  .Border-wraper h3{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: goldenrod;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+   .Border-wraper .Border{
+    border-bottom: 3px solid goldenrod;
+    width: 150px;
+    margin-top: 15px;
+    border-width: 1px;
+  }
+
+.mm{
+  width:100%;
+  height: 50px;
+  background-color: black;
+}
+  .con-bor2{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+  }
+  .con-bor2 .Border-wraper2{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-weight: bolder;
+      justify-content: center;
+  }
+  .Border-wraper2 h3{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: goldenrod;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+   .Border-wraper2 .Border2{
+    border-bottom: 3px solid goldenrod;
+    width: 150px;
+    margin-top: 15px;
+    border-width: 1px;
   }
   .Over_view .Over_view_pic{
-    width: 30%;
+    width: 40%;
     height: 100%;
     background-color: #2b2424;
     display: flex;
@@ -304,12 +371,12 @@ html{
 }
 .loco_text p{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .loco_text i{
   color: goldenrod;
-  font-size: 23px;
+  font-size: 16px;
 }
 .tell_con{
   width: 100%;
@@ -335,11 +402,11 @@ html{
 }
 .tell_left i{
   color:goldenrod;
-  font-size: 23px;
+  font-size: 16px;
 }
 .tell_left p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 .text_right{
@@ -349,7 +416,7 @@ html{
 }
 .text_right h2{
   color: white;
-  font-family: 'Hanuman';
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .Map_and_text_container{
   width: 100%;
@@ -379,9 +446,16 @@ html{
   width: 100%;
   height: 100%;
 }
-.txt_right .txt_left,.txt_mid,.txt_right_right{
+.txt_right .txt_left{
   width: 33.33%;
   height: 100%;
+}
+.txt_mid{
+  width: 20%;
+}
+.txt_right{
+  width: 46.67%;
+  justify-content: center;
 }
 .txt_left .Mon,.Tue,.Wed,.Thu,.Fri,.sat,.sun{
   width: 100%;
@@ -512,16 +586,22 @@ html{
 .M_down .Text_vission{
   color: white;
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2rem;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  text-align: center;
 }
 .M_down .Text_mission .Text1,.Text2,.Text3{
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .M_down .Text_mission .Text1,.Text2,.Text3 p{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14.7px;
+}
+.Text_mission {
+  padding-right: 2rem;
 }
 .add_b{
   width: 100%;
@@ -629,6 +709,7 @@ html{
   color: white;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
   font-size: 17px;
+  height: auto;
 }
 .add_last_time{
   width: 100%;

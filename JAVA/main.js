@@ -37,3 +37,11 @@ function showSlide() {
 
 
 
+  // JavaScript function to toggle the overlay
+  function toggleOverlay() {
+    var Overlay = document.getElementById('Overlay');
+    Overlay.style.display = (Overlay.style.display === 'none' || Overlay.style.display === '') ? 'flex' : 'none';
+  }
+
+
+

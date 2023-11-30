@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 *{
     margin: 0;
@@ -1607,6 +1608,9 @@ border: none;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
+  border-top: 3px solid white;
+  width: 60px;
+  height: 60px;
 
 }
 
@@ -1616,7 +1620,7 @@ border: none;
 }
 .my_btn{
   color: goldenrod;
-  font-size: 40px;
+  font-size: 20px;
 }
 /* Slide  */
 .slideshow-container {

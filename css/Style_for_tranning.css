@@ -299,18 +299,20 @@ html{
   .Overlay{
     width: 91%;
     height: 90%;
-    background-color: rgba(0, 139, 139, 0.925);
+    background-color: rgba(88, 84, 84, 0.705);
     position: absolute;
     cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: end;
     border-radius: 10px;
+    transform: rotate(50deg);
   }
   .al_left:hover .Overlay{
-    opacity: 0.8;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+    transform: unset;
   }
   .Overlay .View_photo{
     width: 90%;

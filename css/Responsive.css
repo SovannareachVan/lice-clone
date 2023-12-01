@@ -76,6 +76,23 @@ body {
     .Yellow_up2{
         width:70px;
     }
+    .Galla {
+        width: 70%;
+    }
+}
+@media(min-width:1440px){
+    .ga_in .ga_left{
+        width: 80%!important;
+    }
+    .ga_left .Course_ ,.Your_acc{
+        width: 70%;
+    }
+    .Yellow_up2{
+        width:70px;
+    }
+    .Galla {
+        width: 70%;
+    }
 }
 @media(max-width:1024px){
     .ga_in .ga_left{
@@ -83,6 +100,20 @@ body {
     }
     .ga_left .Course_ ,.Your_acc{
         width: 90%;
+    }
+}
+@media(min-width:1142px){
+    .ga_in .ga_left{
+        width: 80%!important;
+    }
+    .ga_left .Course_ ,.Your_acc{
+        width: 70%;
+    }
+    .Yellow_up2{
+        width:70px;
+    }
+    .Galla {
+        width: 70%;
     }
 }
 

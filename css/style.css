@@ -18,115 +18,124 @@ html{
     margin: 0;
     padding: 0;
 }
-
-.B_Container{
- width: 100%;
- height: 150px;
- background-color: black; 
- display: flex;
+.nav-bar-con{
+  width: 100%;
+  height: 160px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
 }
-.B_in{
+.nav-bar{
   width: 70%;
   height: 100%;
-  margin: 0 auto;
+  background-color: black;
   display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
-
-.B_left ,.B_right{
-  width: 45%;
+.nav-bar .cus,.search{
+  width: 17%;
   height: 100%;
-
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
-.B_up, .B_down{
-  width: 100%;
-  height: 50%;
-
-}
-.B_mid{
+.nav-bar .pic{
   width: 10%;
   height: 100%;
-  padding-top: 5px;
 }
-.B_left p{
-  font-size: 14px;
-  color: white;
-}
-.B_up p{
-  display: flex;
-  padding-top: 40px;
-}
-.B_up ,.B_down p{
-  font: 14px Roboto,sans-serif,Hanuman,sans-serif;
-}
-
-.B_mid .For_logo{
+.pic .d-pic{
   width: 100%;
   height: 100%;
-
-
 }
-.For_logo img{
+.d-pic img{
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  width: 80%;
-  height: 80%;
+  padding-top: 10px;
 }
-.Bright, .right_search{
+.cus .colum{
+  width: 100%;
+  height: 55px;
+}
+.colum .cust,.tell{
   width: 100%;
   height: 50%;
+}
+.cust .cust-p{
+  width: 100%;
+  height: 100%;
+}
+.tell .tell-p{
+  width: 100%;
+  height: 100%;
+}
+.tell{
+  align-items: end;
+  display: flex;
+}
+.colum p{
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  color: white;
+  font-size: 17px;
+}
+.search .ser-con{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+}
+.ser-con .ser-here,.follow{
+  width: 100%;
+  height: 50%;
+}
+.ser-here{
+  display: flex;
+  justify-content:space-between;
+}
+.ser-here .input{
+  width: 90%;
+  height: 100%;
+  background-color: brown;
+}
+.ser-here .icon-ser{
+  width: 10%;
+  height: 100%;
   display: flex;
   justify-content: end;
+  align-items: center;
+}
+.input input {
+  border-style: none none solid;
+    background-color: #000 !important;
+    padding: 5px 0;
+    transition: 0.3s;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    color: white;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.icon-ser i{
+  font-size: 17px;
+  color: white;
+}
+.follow {
+  border-top: 1px solid white;
+  display: flex;
   align-items: end;
+  justify-content: space-between;
 }
-.right_search .right_s_right{
-  width: 40%;
-  height: 100%;
+.follow span{
+  color: white;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 
-  border-bottom: 2px solid white;
 }
-.s_and_s input{
-  font-size:13px;
-  border: none;
-  background-color: black;
+.follow i{
   color: white;
-}
-.s_and_s{
-  padding-top: 50px;
-}
-.s_and_s i{
-  color: white;
-  font-size: 10px;
-}
- .right_follow{
-  width: 100%;
-  height: 50%;
-  display: flex;
-}
-.right_follow .right_f_left{
-  width: 60%;
-  height: 100%;
-}
-.right_follow .right_follow_right{
-  width: 40%;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  padding-top: 5px;
-}
-.right_follow_right p{
-  color: white;
-  width: 50%x;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.right_follow_right .My_icon{
-  display: flex;
-  width: 50%;
-  gap: 13px;
-  height: 100%;
-  font-size: 14px;
-}
-.right_follow_right .My_icon a{
-  color: white;
+  font-size: 16px;
 }
 .bit_container{
   width: 100%;
@@ -665,9 +674,54 @@ border: none;
 .white_button_container{
   width: 100%;
   height: 100px;
-  background-color:black;
+  background-color:white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.more2{
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  background: 0;
+  height:43px;
+}
+.more2 a{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e6ab19;
+  background-color: #3d3d3d;
+  color: #fff;
+  box-shadow: none;
+  outline: 0;
+  border-radius: 50px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.more2:hover a{
+letter-spacing: 0.05rem;
+transition: 0.3s;
+cursor: pointer;
+background-color: white;
+color: #000;
+}
+.btn-more2 span{
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.btn-more2{
+display: flex;
+align-items: center;
 }
 .add_up{
   width: 100%;
@@ -1488,6 +1542,9 @@ border: none;
   background-color: black;
   display: flex;
 }
+.Gallary p{
+  font-size: 80px;
+}
 .Gallary .ga_in{
   width: 70%;
   height: 100%;
@@ -1517,14 +1574,14 @@ border: none;
 }
 .ga_left p{
   color: white;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .ga_right p{
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .icon2 i{
   font-size: 14px;
@@ -1574,7 +1631,7 @@ border: none;
   align-items: center;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
 }
 .last .txm{
   width: 15%;

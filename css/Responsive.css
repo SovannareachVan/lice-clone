@@ -7,64 +7,6 @@ body {
 
 /* Media query for screens up to 600px wide */
 @media(min-width:1024px){
-
-    .s_and_s input{
-        font-size: 14px;
-        width: 90%;
-    }
-    .s_and_s a{
-        font-size: 14px;
-    }
-    .right_follow .right_follow_right p{
-        font-size: 13px;
-    }
-    .right_follow .right_follow_right .My_icon { 
-        display: flex;
-        justify-content: space-between;
-    }
-    .slideshow-container{
-        height: 440px;
-    }
-    .icon_in i{
-        font-size: 70px;
-    }
-    .Middle_middle p{
-        font-size: 1.5rem;
-        
-    }
-    .add_slide{
-        background-color: black;
-        height: 50px;
-    }
-    .box_down_up3, .box_down_up1 a{
-        font-size: 15px;
-    }
-    .s_boxleft .manu a{
-        font-size: 14px;
-    }
-    .txt_box .class_txt p{
-        display: flex;
-        text-align: center;
-        font-size: 2rem;
-    }
-    .class_icon i{
-        font-size:100px;
-    }
-    .image_middle .p_up p{
-        text-align: center;
-    }
-    .Cover_image{
-        height: 353px;
-    }
-    .middle_blue p{
-        font-size: 1.5rem;
-        line-height: 2rem;
-
-    }
-    .box_down .b2{
-        background-color: red;
-        margin-bottom: 50px;
-    }
 }
 @media(max-width:1440px){
     .ga_in .ga_left{

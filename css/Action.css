@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,154 +8,167 @@
 html{
     scroll-behavior: smooth;
   }
-.B_Container{
- width: 100%;
- height: 150px;
- background-color: black; 
- display: flex;
-}
-.B_in{
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-}
-
-.B_left ,.B_right{
-  width: 45%;
-  height: 100%;
-
-}
-.B_up, .B_down{
-  width: 100%;
-  height: 50%;
-
-}
-.B_mid{
-  width: 10%;
-  height: 100%;
-  padding-top: 5px;
-}
-.B_left p{
-  font-size: 20px;
-  color: white;
-}
-.B_up p{
-  display: flex;
-  padding-top: 40px;
-}
-.B_up P{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.B_mid .For_logo{
-  width: 100%;
-  height: 100%;
-
-
-}
-.For_logo img{
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-}
-.Bright, .right_search{
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: end;
-  align-items: end;
-}
-.right_search .right_s_right{
-  width: 40%;
-  height: 100%;
-
-  border-bottom: 2px solid white;
-}
-.s_and_s input{
-  font-size:17px;
-  border: none;
-  background-color: black;
-  color: white;
-}
-.s_and_s{
-  padding-top: 50px;
-}
-.s_and_s i{
-  color: white;
-}
- .right_follow{
-  width: 100%;
-  height: 50%;
-  display: flex;
-}
-.right_follow .right_f_left{
-  width: 60%;
-  height: 100%;
-}
-.right_follow .right_follow_right{
-  width: 40%;
-  height: 100%;
-  display: flex;
-  gap: 20px;
-  padding-top: 5px;
-}
-.right_follow_right p{
-  color: white;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.right_follow_right .My_icon{
-  display: flex;
-  gap: 20px;
-  font-size: 18px;
-}
-.right_follow_right .My_icon a{
-  color: white;
-}
-.com{
+  .nav-bar-con{
     width: 100%;
-    height: 10px;
+    height: 160px;
+    background-color: #000;
+    align-items: center;
+    display: flex;
+  }
+  .nav-bar{
+    width: 70%;
+    height: 100%;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .nav-bar .cus,.search{
+    width: 17%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+  .nav-bar .pic{
+    width: 10%;
+    height: 100%;
+  }
+  .pic .d-pic{
+    width: 100%;
+    height: 100%;
+  }
+  .d-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-top: 10px;
+  }
+  .cus .colum{
+    width: 100%;
+    height: 55px;
+  }
+  .colum .cust,.tell{
+    width: 100%;
+    height: 50%;
+  }
+  .cust .cust-p{
+    width: 100%;
+    height: 100%;
+  }
+  .tell .tell-p{
+    width: 100%;
+    height: 100%;
+  }
+  .tell{
+    align-items: end;
+    display: flex;
+  }
+  .colum p{
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    color: white;
+    font-size: 17px;
+  }
+  .search .ser-con{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ser-con .ser-here,.follow{
+    width: 100%;
+    height: 50%;
+  }
+  .ser-here{
+    display: flex;
+    justify-content:space-between;
+  }
+  .ser-here .input{
+    width: 90%;
+    height: 100%;
+    background-color: brown;
+  }
+  .ser-here .icon-ser{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .input input {
+    border-style: none none solid;
+      background-color: #000 !important;
+      padding: 5px 0;
+      transition: 0.3s;
+      font-size: 14px;
+      width: 100%;
+      box-shadow: none;
+      outline: none;
+      color: white;
+      font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+  .icon-ser i{
+    font-size: 17px;
+    color: white;
+  }
+  .follow {
+    border-top: 1px solid white;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .follow span{
+    color: white;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  
+  }
+  .follow i{
+    color: white;
+    font-size: 16px;
   }
   .bit_container{
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color:black;
     position: sticky;
-    top: 0;
+    top:0;
     z-index: 999;
+  
   }
   .bit_container .s_container{
     width: 70%;
-    height: 40px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
   }
   .s_container .s_boxleft{
     width: 70%;
     height: 40px;
     background-color:black;
   }
-  .ga_right p:hover{
-    color: #EAB308;
-  }
   .s_container .s_boxright{
     width: 30%;
-    height: 40px;
+    height: 20px;
     background-color: black;
     display: flex;
     justify-content: end;
     gap: 20px;
-    margin-top: 20px;
+  }
+  .manu .cu a{
+    color: #EAB308;
   }
   .s_boxleft ul{
     display: flex;
     gap: 15px;
     list-style-type:none;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    margin-top: 12px;
+  
+  }
+  .s_boxleft li{
   }
   ul a{
     color: white;
@@ -164,76 +179,41 @@ html{
   }
   .manu2 a{
     color: darkcyan;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    font-size: 14px;
   }
   .icon22 i{
     color: white;
+    font-size: 15px;
   }
-  .Addd{
+  .con-bor{
     width: 100%;
-    height: 25px;
+    height: 90px;
     background-color: black;
   }
-  .Free_Container{
+  .con-bor .Border-wraper{
     width: 100%;
-    height: 100px;
-    background-color: black;
+    height: 100%;
     display: flex;
-  }
-  .Free_Container .Free_in{
-    width: 70%;
-    height: 100%;
-  
-    margin:0 auto;
-    display: flex;
-  }
-  .Free_in .in_3{
-    width: 70%;
-    height: 100%;
-   
-    margin: 0 auto;
-    display: flex;
-  }
-  .in_3 .Free_left{
-    width: 25%;
-    height: 100%;
-  
-  }
-  .in_3 .Free_mid{
-    width: 50%;
-    height: 100%;
-  
-  }
-  .in_3 .Free_right{
-    width: 25%;
-    height: 100%;
-  
-  }
-  .Free_left .Free_left_up{
-    width: 100%;
-    height: 50%;
-  
-    border-bottom: 3px solid goldenrod;
-  }
-  .Free_mid .Free_mid_up{
-    width: 100%;
-    height: 50%;
-  
-    display: flex;
-  }
-  .Free_mid .Free_mid_up p{
-    margin: 0 auto;
-    color: #EAB308;
-    font-size: 31px;
-    font-family: 'Hanuman', serif;
-    padding-top: 19px;
-  }
-  .Free_right .Free_right_up{
-    width: 100%;
-    height: 50%;
-  
-    border-bottom: 3px solid goldenrod;
-  }
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+.Border-wraper h3{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: goldenrod;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+ .Border-wraper .Border{
+  border-bottom: 3px solid goldenrod;
+  width: 150px;
+  margin-top: 15px;
+  border-width: 1px;
+}
   .Picture_con{
     width: 100%;
     height: 290px;

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -617,7 +618,7 @@ html{
 }
 .M_down .Text_mission .Text1,.Text2,.Text3 p{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
   font-size: 14.7px;
 }
 .Text_mission {
@@ -772,17 +773,17 @@ html{
 }
 .ga_left p{
   color: white;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .ga_right p{
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .icon2 i{
-  font-size: 30px;
+  font-size: 16px;
   color: yellowgreen;
 }
 .com{
@@ -792,11 +793,9 @@ html{
 }
 .com_la{
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: black;
   display: flex;
-
-
 }
 .com_la .la_in{
   width: 50%;
@@ -809,47 +808,57 @@ html{
   height: 30px;
   background-color: black;
 }
-.last{
+.last_con{
   width: 100%;
   height: 70px;
   background-color: black;
-  display: flex;
 }
-.last .last_in{
-  width: 60%;
+.last{
+  width: 70%;
   height: 100%;
   margin: 0 auto;
   display: flex;
-
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.last_in p{
-  color: white;
-  font-size:20px ;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.last_in .last_in_left{
-  width: 33.33%;
-  height: 100%;
-
-}
-.last_in .last_in_mid{
-  width: 33.33%;
-  height: 100%;
-
+.last .txl,.txr{
+  width: 30%;
+  height: 25px;
   display: flex;
-}
-.last_in .last_in_right{
-  width: 33.33%;
-  height: 100%;
-
-}
-.icon_last{
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  color: white;
+  font-size: 16px;
+}
+.last .txm{
+  width: 15%;
+  height: 25px;
+}
+.txm .class_i{
   display: flex;
-  gap: 20px;
-  padding-left: 100px;
-  font-size: 25px;
+  align-items: center; 
+  justify-content: space-evenly;
+}
+.class_i a{
+  padding-top: 5px;
+}
+.class_i a i{
+  color:white;
+  font-size: 20px;
+  background-color: transparent;
+}
+.Course_ a{
+  text-decoration: none;
+}
+.Galla a{
+  text-decoration: none;
+}
+.Your_acc a{
+  text-decoration: none;
+}
+.icon_last a{
   color: white;
 }
 .Course_ a{

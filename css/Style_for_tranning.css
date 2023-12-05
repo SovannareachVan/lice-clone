@@ -286,6 +286,9 @@ html{
     border-radius: 10px;
     transform: rotate(50deg);
   }
+  .tt a{
+    color: goldenrod;
+  }
   .al_left:hover .Overlay{
     opacity: 1;
     transition: 0.4s ease-in-out;
@@ -345,6 +348,9 @@ html{
     height: 50px;
     background-color: black;
     display: flex;
+  }
+  .Gallary p:hover{
+    color: goldenrod;
   }
   .Gallary .ga_in{
     width: 70%;

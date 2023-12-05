@@ -389,6 +389,9 @@ html{
   
     display: flex;
   }
+  .Gallary p:hover{
+    color: goldenrod;
+  }
   .ga_left .Course_,.Galla,.Your_acc{
     width: 33.33%;
     height: 100%;

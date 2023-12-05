@@ -752,6 +752,9 @@ html{
   background-color: black;
   display: flex;
 }
+.Gallary p:hover{
+  color: goldenrod;
+}
 .Gallary .ga_in{
   width: 70%;
   height: 100%;
@@ -766,10 +769,14 @@ html{
 
   display: flex;
 }
+
 .ga_left .Course_,.Galla,.Your_acc{
   width: 33.33%;
   height: 100%;
 
+}
+.ab a{
+  color: goldenrod;
 }
 .ga_left p{
   color: white;

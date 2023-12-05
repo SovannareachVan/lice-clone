@@ -15,6 +15,9 @@ html{
     align-items: center;
     display: flex;
   }
+  .cc a{
+    color: goldenrod;
+  }
   .nav-bar{
     width: 70%;
     height: 100%;
@@ -232,6 +235,11 @@ html{
   width: 150px;
   margin-top: 15px;
   border-width: 1px;
+}
+.back_ground{
+  width: 100%;
+  height: auto;
+  background-color: black;
 }
 .A_lot{
   width: 100%;
@@ -721,6 +729,9 @@ html{
   background-color: black;
   display: flex;
 }
+.Gallary p:hover{
+  color: goldenrod;
+}
 .Gallary .ga_in{
   width: 70%;
   height: 100%;
@@ -865,4 +876,14 @@ html{
 }
 .ga_right p:hover{
   color: #EAB308;
+}
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active{
+  transform: translateY(0px);
+  opacity: 1!important;
 }

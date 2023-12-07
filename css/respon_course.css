@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media screen and (max-width:1024px) {
+
+    .nav-bar{
+        width: 90%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+      }
+      .nav-bar .cus,.search{
+        width: 20%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+      }
+      .bit_container .s_container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .A_lot{
+      width: 100%;
+      height: auto;
+      background-color:black;
+      display: flex;
+    }
+    .A_lot .box_2{
+      width: 90%;
+      height: auto;
+      margin:0 auto;
+      background-color:black;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .box_2 .box_left_2,.box_right_2{
+      width: 100%;
+      height: 100%;
+      background-color:#211D1D;
+      display: flex;
+      overflow: hidden;
+    }
+    .box_left_2 .left_2_left , .right_2_right{
+      width: 50%;
+      height: 100%;
+      background-color: #211D1D;
+    }
+    .Profile .Profile_3_co{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+      gap: 20px; /* Gap between grid items */
+      margin: 0 auto;
+    }
+    .Profile .pro_{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .Gallary .ga_in {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      gap: 25rem;
+  }
+  .Gallary .ga_in .ga_left {
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+.Gallary .ga_right{
+  width: 80%;
+}
+.con-bor {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+.last{
+  width: 90%;
+}
+
+
+
+
+    
+}

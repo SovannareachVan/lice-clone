@@ -407,6 +407,8 @@ border-width: 1px;
 }
 .Three p{
   font-family: "Roboto", sans-serif, "Hanuman", serif;
+  align-items: center;
+  display: flex;
 }
 .Line_yellow{
   width: 100%;

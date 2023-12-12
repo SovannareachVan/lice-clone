@@ -1,0 +1,132 @@
+@media screen and (max-width:1024px){
+    .nav-bar {
+        width: 90%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .nav-bar .cus, .search {
+        width: 20%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+    .bit_container .s_container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .Over_view_con .Over_view {
+        width: 90%;
+        height: 100%;
+        background-color: #2b2424;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .loca_co .loco_text {
+        width: 90%;
+        height: 100%;
+        background-color: black;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        align-items: end;
+    }
+    .tell_con .tell_and_text {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .Map_and_text_container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: black;
+      
+      }
+    .Map_and_text_container .Map_and_txt {
+        width: 90%;
+        height: auto;
+        background-color: black;
+        margin: 0 auto;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+    }
+    .Over_view .Over_view_left {
+        width: 100%;
+        height: 100%;
+        background-color: #2b2424;
+    }
+    
+.Over_view .Over_view_pic {
+    width: 40%;
+    height: 100%;
+    background-color: #2b2424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.M_and_V_con .M_and_V {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.Map_and_txt .Map_left {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+}
+.txt_right {
+    width: 46.67%;
+    margin: 0 auto;
+}
+.Pic6_con .Pic6{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: black;
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:25px ;
+  
+  }
+  .txt_left p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+  .txt_right_right p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+  .text_rightt h2 {
+    color: white;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    font-size: 1.1rem;
+
+}
+.Gallary .ga_in {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 25rem;
+}
+.ga_right {
+    width: 75%;
+    height: 100%;
+    display: flex;
+}
+}

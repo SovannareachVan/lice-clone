@@ -242,7 +242,11 @@ html{
   }
   .text_in .text_class{
     width: 100%;
+<<<<<<< HEAD
     height: auto;
+=======
+    height: 100%;
+>>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
     overflow: hidden;
   }
   .text_class p{

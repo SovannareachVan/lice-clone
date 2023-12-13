@@ -1,4 +1,5 @@
 @media screen and (max-width:1024px){
+<<<<<<< HEAD
     .Albums_container .Three_al {
         width: 90%;
         display: grid;
@@ -7,6 +8,8 @@
         column-gap: 35px;
         margin: 0 auto;
     }
+=======
+>>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
     .nav-bar {
         width: 90%;
         height: 100%;
@@ -35,6 +38,17 @@
     height: 110px;
     background-color: black;
 }
+<<<<<<< HEAD
+=======
+.Albums_container .Three_al {
+    width: 90%;
+    height: 100%;
+    /* background-color: black; */
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+>>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
 .Under_v_co .Under_v {
     width: 90%;
     height: 100%;

@@ -290,7 +290,50 @@
   display: flex;
   justify-content: space-between;
 }
-
-
-
 }
+@media screen and (max-width:768px){
+  .bit_container{
+    display: none;
+  }
+  .cus{
+    display: none!important;
+  }
+  .search{
+    display: none!important;
+  }
+.pic{
+  justify-content: center!important;
+  display: flex;
+}
+.Nav_con{
+  display: block;
+}
+.Acc_con {
+  display: block;
+}
+.nav-bar-con {
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+}
+.d-pic img {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  padding-top: 10px;
+}
+.Cus_new_con{
+display: block;
+}
+.shadow_container .box_shadow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)!important;
+  margin: 0 auto;
+  gap: 20px;
+  width: 90%;
+  height: auto;
+}
+}
+

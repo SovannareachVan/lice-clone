@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 html{
     scroll-behavior: smooth;
@@ -275,52 +276,67 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-  }.Gallary{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    display: flex;
-  }
-  .Gallary p:hover{
-    color: goldenrod;
-  }
-  .Gallary .ga_in{
+  .Last_manu{
     width: 70%;
-    height: 100%;
-  
+    height: 170px  ;
+    background-color: black;
     margin: 0 auto;
     display: flex;
-    gap: 25rem;
+    justify-content: space-between;
   }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
+  .Last_manu .Manu_ri{
+    width: 330px;
+    background-color: black;
+    margin-top: 30px;
+  }
+  .Last_manu .Manu_le{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Manu_le{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .Manu_le .Co{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  }
+  .Co a{
+    text-decoration: none;
+    color:white;
+  }
+  .Co a:hover{
+    color: goldenrod;
+  }
+  .Manu_ri .Map,.Phone,.Mail{
+    width: 100%;
+    height: 33.33%;
     display: flex;
+    gap: 10px;
   }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
+  .Manu_ri .Map,.Phone,.Mail p{
     color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
   }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  .Manu_ri .Map i{
+    color: goldenrod;
+    font-size: 20px;
   }
-  .icon2 i{
-    font-size: 17px;
-    color: yellowgreen;
+  .Manu_ri .Phone i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Mail i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Last_foo{
+    background-color: black;
+    width: 100%;
+    height: auto;
   }
   .com{
     width: 100%;
@@ -332,7 +348,6 @@ html{
     height: 3px;
     background-color: black;
     display: flex;
-  
   
   }
   .com_la{
@@ -503,23 +518,24 @@ html{
     background-color: black;
 }
 .Video_Album_con{
-    width: 100%;
-    height: 350px;
-    background-color: black;
-    display: flex;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
   }
   .Video_Album_con .Video_Album{
     width: 70%;
-    height: 100%;
-    background-color:;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    gap:50px ;
-    display: flex;
+    row-gap: 10px;
+    column-gap: 35px;
+  
   
   }
   .Video_Album .Video_left{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 350px;
     background-color: blue;
     position: relative;
     display: flex;
@@ -632,4 +648,24 @@ html{
 ::-webkit-scrollbar-track{
   background-color: black;
   border-radius: 10px;
+}
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1!important;
+}
+.ho{
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+.ho p{
+color: white;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+font-size: 16px;
 }

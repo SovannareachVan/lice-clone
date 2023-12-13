@@ -48,7 +48,7 @@ function showSlide() {
 //my js
 window.addEventListener('scroll', reveal);
 function reveal(){
-  var reveals = document.querySelectorAll('.reveal');
+  var reveals = document.querySelectorAll('.reveal,.reveals');
   for (var i = 0; i < reveals.length; i++){
     var windowheight = window.innerHeight;
     var revealtop = reveals[i].getBoundingClientRect().top;

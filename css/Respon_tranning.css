@@ -69,12 +69,4 @@
     background-color: white;
     margin: 0 auto;
 }
-.Video_Album_con .Video_Album {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
-    row-gap: 10px;
-    column-gap: 35px;
-}
 }

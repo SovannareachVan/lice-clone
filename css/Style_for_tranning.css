@@ -216,27 +216,37 @@ html{
 }
   .Albums_container{
     width: 100%;
-    height: 300px;
+    height: auto;
     /* background-color: black; */
     display: flex;
   }
   .Albums_container .Three_al{
     width: 70%;
-    height: 100%;
-    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 35px;
     margin: 0 auto;
-    display: flex;
-    gap: 30px;
   }
   .Three_al .al_left{
-    width: 33.33%;
-    height: 100%;
+    width: 100%;
+    height: 250px;
     background-color: thistle;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
+  .ho{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+  }
+ .ho p{
+  color: white;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-size: 16px;
+ }
   .Three_al .al_left .al_left_bor
   {
     width: 90%;
@@ -302,33 +312,13 @@ html{
   }
   .Train_back_img{
     width: 100%;
-    height: 750px;
+    height: auto;
     background-color: #EAB308;
     background-image: url('../Html/Image/imgfix.jpg');
     background-size:100% ;
     object-fit: cover;
   }
-  .Under_v_co{
-    width: 100%;
-    height: 60px;
-    display: flex;
-  }
-  .Under_v_co .Under_v{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    gap: 27.2px;
-  }
-.Under_v .v_left,.v_mid,.v_right{
-    width: 33.33%;
-    height: 100%;
-}
-.Under_v{
-    color: white;
-    font-size: 17px;
-    font-family: 'Hanuman';
-}
+  
 .add_vi {
     width: 100%;
     height: 40px;
@@ -339,57 +329,76 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
+  .Last_foo{
     background-color: black;
-  }.Gallary{
     width: 100%;
-    height: 50px;
+    height: auto;
+
+  }
+  .com {
+    width: 100%;
+    height: 10px;
     background-color: black;
-    display: flex;
+}
+  * {
+    font-family:"Roboto", sans-serif, "Hanuman", serif;;
   }
-  .Gallary p:hover{
-    color: goldenrod;
-  }
-  .Gallary .ga_in{
+  .Last_manu{
     width: 70%;
-    height: 100%;
-  
+    height: 170px  ;
+    background-color: black;
     margin: 0 auto;
     display: flex;
-    gap: 25rem;
+    justify-content: space-between;
   }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
-    display: flex;
-  }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
-    color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .icon2 i{
-    font-size: 16px;
-    color: yellowgreen;
-  }
-  .com{
-    width: 100%;
-    height: 15px;
+  .Last_manu .Manu_ri{
+    width: 330px;
     background-color: black;
+    margin-top: 30px;
+  }
+  .Last_manu .Manu_le{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Manu_le{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .Manu_le .Co{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  }
+  .Co a{
+    text-decoration: none;
+    color:white;
+  }
+  .Co a:hover{
+    color: goldenrod;
+  }
+  .Manu_ri .Map,.Phone,.Mail{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    gap: 10px;
+  }
+  .Manu_ri .Map,.Phone,.Mail p{
+    color: white;
+  }
+  .Manu_ri .Map i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Phone i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Mail i{
+    color: goldenrod;
+    font-size: 20px;
   }
   .com_la{
     width: 100%;

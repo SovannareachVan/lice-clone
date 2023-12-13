@@ -883,7 +883,7 @@ html{
   position: relative;
   transform: translateY(100px);
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 .active{
   transform: translateY(0px);

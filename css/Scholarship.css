@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 html{
     scroll-behavior: smooth;
@@ -214,27 +215,94 @@ html{
   margin-top: 15px;
   border-width: 1px;
 }
-  .Picture_con{
-    width: 100%;
-    height: 290px;
-    background-color: black;
-  }
-  .Picture_con .Picture{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    gap: 20px;
-  }
-  .Picture .Picture_of_three{
-    width: 33.33%;
-    height: 100%;
-  }
-  .Picture img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.Picture_con{
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.Picture_con .Picture{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 17px;
+  column-gap: 17px;
+  margin: 0 auto;
+}
+.Picture .Picture_of_three{
+  width: 100%;
+  height: 270px;
+  position: relative;
+}
+.Picture img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.Picture_of_three .Content{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.268);
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.4s;
+}
+.Content p{
+  margin-bottom: 30px;
+}
+.Picture_of_three .bu{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Picture_of_three .bu button{
+  display: none;
+  color: white;
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+}
+.Picture_of_three:hover .bu button{
+  display: block!important;
+}
+.Content button{
+  display: flex;
+  margin-bottom:  15%;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.Content p{
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  margin-left: 20px;
+  line-height: 2;
+}
+.Content:hover{
+  opacity: 1;
+}
+.Content > *{
+  transform: translateY(25px);
+  transition: transform 0.5s;
+}
+.Content:hover > *{
+  transform: translateY(0px);
+}
+
   .a_un_pic{
     width: 100%;
     height: 20px;
@@ -250,57 +318,71 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-  }.Gallary{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    display: flex;
-  }
-  .Gallary p:hover{
-    color: goldenrod;
-  }
-  .Gallary .ga_in{
+  .Last_manu{
     width: 70%;
-    height: 100%;
-  
+    height: 170px  ;
+    background-color: black;
     margin: 0 auto;
     display: flex;
-    gap: 25rem;
+    justify-content: space-between;
   }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
+  .Last_manu .Manu_ri{
+    width: 330px;
+    background-color: black;
+    margin-top: 30px;
+  }
+  .Last_manu .Manu_le{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Manu_le{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .Manu_le .Co{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  }
+  .Co a{
+    text-decoration: none;
+    color:white;
+  }
+  .Co a:hover{
+    color: goldenrod;
+  }
+  .Manu_ri .Map,.Phone,.Mail{
+    width: 100%;
+    height: 33.33%;
     display: flex;
+    gap: 10px;
   }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
+  .Manu_ri .Map,.Phone,.Mail p{
     color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
   }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  .Manu_ri .Map i{
+    color: goldenrod;
+    font-size: 20px;
   }
-  .icon2 i{
-    font-size: 17px;
-    color: yellowgreen;
+  .Manu_ri .Phone i{
+    color: goldenrod;
+    font-size: 20px;
   }
-  .com{
+  .Manu_ri .Mail i{
+    color: goldenrod;
+    font-size: 20px;
+  }.com{
     width: 100%;
     height: 15px;
     background-color: black;
+  }
+  .Last_foo{
+    background-color: black;
+    width: 100%;
+    height: auto;
   }
   .com_la{
     width: 100%;

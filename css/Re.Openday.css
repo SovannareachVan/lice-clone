@@ -69,6 +69,36 @@
     background-color: white;
     margin: 0 auto;
 }
+.Picture_con .Picture {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 17px;
+    column-gap: 17px;
+    margin: 0 auto;
+}
+.Emty_con .Emty_pic {
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+.Emty_data_con .Emty_data {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no_data_con .no_data {
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .Video_Album_con .Video_Album {
     width: 90%;
     display: grid;
@@ -76,5 +106,10 @@
     margin: 0 auto;
     row-gap: 10px;
     column-gap: 35px;
+}
+.con_35 .con_in {
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
 }
 }

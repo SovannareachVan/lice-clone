@@ -4,6 +4,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.com {
+  width: 100%;
+  height: 10px;
+  background-color: black;
 }
 html{
     scroll-behavior: smooth;
@@ -219,7 +225,7 @@ html{
     display: flex;
   }
   .sign_up_con .sign_up{
-    width: 40%;
+    width: 55%;
     height: 100%;
     background-color: brown;
     margin: 0 auto;
@@ -363,7 +369,7 @@ html{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 5px;
+    justify-content: space-between;
 }
 .letter a p{
     text-decoration: none;
@@ -444,57 +450,67 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-  }.Gallary{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    display: flex;
-  }
-  .Gallary p:hover{
-    color: goldenrod;
-  }
-  .Gallary .ga_in{
+  .Last_manu{
     width: 70%;
-    height: 100%;
-  
+    height: 170px  ;
+    background-color: black;
     margin: 0 auto;
     display: flex;
-    gap: 25rem;
+    justify-content: space-between;
   }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
-    display: flex;
-  }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
-    color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .icon2 i{
-    font-size: 16px;
-    color: yellowgreen;
-  }
-  .com{
-    width: 100%;
-    height: 15px;
+  .Last_foo{
     background-color: black;
+    width: 100%;
+    height: auto;
+  }
+  .Last_manu .Manu_ri{
+    width: 330px;
+    background-color: black;
+    margin-top: 30px;
+  }
+  .Last_manu .Manu_le{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Manu_le{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .Manu_le .Co{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  }
+  .Co a{
+    text-decoration: none;
+    color:white;
+  }
+  .Co a:hover{
+    color: goldenrod;
+  }
+  .Manu_ri .Map,.Phone,.Mail{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    gap: 10px;
+  }
+  .Manu_ri .Map,.Phone,.Mail p{
+    color: white;
+  }
+  .Manu_ri .Map i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Phone i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Mail i{
+    color: goldenrod;
+    font-size: 20px;
   }
   .com_la{
     width: 100%;

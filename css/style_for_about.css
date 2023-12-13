@@ -206,7 +206,7 @@ html{
   }
   .Over_view_con{
     width: 100%;
-    height: 350px;
+    height: auto;
     background-color: black;
     display: flex;
   }
@@ -216,14 +216,19 @@ html{
   }
   .Over_view_con .Over_view{
     width: 70%;
-    height: 100%;
-    background-color: thistle;
+    height: auto;
+    background-color: #2b2424;
     margin: 0 auto ;
     display: flex;
   }
+  .over_con{
+    width: 100%;
+    height: auto;
+    background-color: red;
+  }
   .Over_view_left .view_text{
     width: 100%;
-    height: 70%;
+    height: 250px;
     background-color: #2b2424;
     display: flex;
     justify-content: center;
@@ -232,17 +237,19 @@ html{
   }
   .text_in{
     width: 80%;
-    height: 80%;
+    height: 90%;
     background-color:#2b2424;
   }
   .text_in .text_class{
     width: 100%;
-    height: 100%;
+    height: auto;
+    overflow: hidden;
   }
   .text_class p{
     color: white;
     font-size: 18px;
     font-family: "Roboto", sans-serif, "Hanuman", serif;
+    overflow: hidden;
   }
   .Over_view .Over_view_left{
     width: 70%;
@@ -318,6 +325,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   .Over_view_pic .view_pic{
     width: 80%;
@@ -411,7 +419,7 @@ html{
   margin: 0 auto;
   display: flex;
 }
-.tell_and_text .tell_left,.text_right{
+.tell_and_text .tell_left{
   width: 50%;
   height: 100%;
   background-color: black;
@@ -430,19 +438,32 @@ html{
   font-size: 18px;
   color: white;
 }
-.text_right{
+.text_rightt{
+  width: 100%;
+  height: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.text_right h2{
+.mon_{
+  display:flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.gg{
+  width: 50px;
+  height: 80px;
+  background-color: red;
+}
+.text_rightt h2{
   color: white;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 .Map_and_text_container{
   width: 100%;
-  height: 450px;
-  display: flex;background-color: black;
+  height: 400px;
+  display: flex;
+  background-color: black;
 
 }
 .Map_and_text_container .Map_and_txt{
@@ -453,11 +474,16 @@ html{
   display: flex;
   gap: 70px;
 }
-.Map_and_txt .Map_left,.txt_right{
+.Map_and_txt .Map_left{
   width: 50%;
   height: 100%;
   background-color: black;
   display: flex;
+}
+.txt_right{
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 .Map_left .Map{
   width: 100%;
@@ -476,7 +502,6 @@ html{
 }
 .txt_right{
   width: 46.67%;
-  justify-content: center;
 }
 .txt_left .Mon,.Tue,.Wed,.Thu,.Fri,.sat,.sun{
   width: 100%;
@@ -732,11 +757,89 @@ html{
   font-size: 17px;
   height: auto;
 }
-.add_last_time{
+.Pic6_con{
+  width: 100%;
+  background-color: black;
+  height: auto;
+}
+.Pic6_con .Pic6{
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  background-color: black;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:25px ;
+
+}
+.about_box .about_box_image{
+  width: 100%;
+  height: 300px;
+  background-color: #2b2424;
+}
+.about_box_image img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.about_txt{
+  position: relative;
+  margin-top: 10px;
+}
+.about_txt .flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 1.25rem;
+}
+.about_txt .single-line{
+  width: 150px;
+  height: 2px;
+  background-color: #e6ab19;
+  flex: auto;
+  margin-left: 1.5rem;
+}
+.flex .num h3{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: goldenrod;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.white_long p{
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+
+}
+.pp{
   width: 100%;
   height: 30px;
   background-color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .line{
   width: 100%;
   height: 3px;
@@ -890,4 +993,34 @@ html{
 ::-webkit-scrollbar-track{
   background-color: black;
   border-radius: 10px;
+}
+.reveal{
+  position: relative;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.reveal.active{
+  transform: translateX(0px);
+  opacity: 1!important;
+}
+.reveals{
+  position: relative;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.reveals.active{
+  transform: translateX(-0px);
+  opacity: 1!important;
+}
+.revealu{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.revealu.active{
+  transform: translateY(0px);
+  opacity: 1!important;
 }

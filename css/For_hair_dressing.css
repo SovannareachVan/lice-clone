@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 html{
     scroll-behavior: smooth;
@@ -214,120 +215,111 @@ html{
   margin-top: 15px;
   border-width: 1px;
 }
-  .Albums_container{
-    width: 100%;
-    height: 300px;
-    /* background-color: black; */
-    display: flex;
-    background-color: black;
-  }
-  .Albums_container .Three_al{
-    width: 70%;
-    height: 100%;
-    /* background-color: black; */
-    margin: 0 auto;
-    display: flex;
-    gap: 30px;
-  }
-  .Three_al .al_left{
-    width: 33.33%;
-    height: 100%;
-    background-color: thistle;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  .Three_al .al_left .al_left_bor
-  {
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-    border: 2px solid goldenrod;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .Three_al .al_left img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .al_left_bor .Product{
-    width: 90%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    
-  }
-  .Product button{
-    background-color: transparent;
-    border: none;
-    font-size: 50px;
-    color:white;
-    z-index: 99;
-  }
-  .Product button:hover{
-    color:goldenrod;
-  }
-  .Overlay{
-    width: 91%;
-    height: 90%;
-    background-color: rgba(88, 84, 84, 0.705);
-    position: absolute;
-    cursor: pointer;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    border-radius: 10px;
-    transform: rotate(50deg);
-  }
-  .al_left:hover .Overlay{
-    opacity: 1;
-    transition: 0.4s ease-in-out;
-    transform: unset;
-  }
-  .Overlay .View_photo{
-    width: 90%;
-    height:15%;
-    margin-bottom: 15%;
-    display: flex;
-  }
-  /* .Train_back_img{
-    width: 100%;
-    height: 750px;
-    background-color: #EAB308;
-    background-image: url('../Html/Image/imgfix.jpg');
-    background-size:100% ;
-    object-fit: cover;
-  } */
-  .Under_v_co{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    background-color: black;
-  }
-  .Under_v_co .Under_v{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    gap: 27.2px;
-  }
-.Under_v .v_left,.v_mid,.v_right{
-    width: 33.33%;
-    height: 100%;
+.Albums_container{
+  width: 100%;
+  height: auto;
+  /* background-color: black; */
+  display: flex;
 }
-.Under_v{
-    color: white;
-    font-size: 17px;
-    font-family: 'Hanuman';
+.Albums_container .Three_al{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 35px;
+  margin: 0 auto;
 }
+.Three_al .al_left{
+  width: 100%;
+  height: 250px;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ho{
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+.ho p{
+color: white;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+font-size: 16px;
+}
+.Three_al .al_left .al_left_bor
+{
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Three_al .al_left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.al_left_bor .Product{
+  width: 90%;
+  height: 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  
+}
+.Product button{
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color:white;
+  z-index: 99;
+}
+.Product button:hover{
+  color:goldenrod;
+}
+.Overlay{
+  width: 91%;
+  height: 90%;
+  background-color: rgba(88, 84, 84, 0.705);
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 10px;
+  transform: rotate(50deg);
+}
+.tt a{
+  color: goldenrod;
+}
+.al_left:hover .Overlay{
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+  transform: unset;
+}
+.Overlay .View_photo{
+  width: 90%;
+  height:15%;
+  margin-bottom: 15%;
+  display: flex;
+}
+.Train_back_img{
+  width: 100%;
+  height: auto;
+  background-color: #EAB308;
+  background-image: url('../Html/Image/imgfix.jpg');
+  background-size:100% ;
+  object-fit: cover;
+}
+<div class="under_related"></div>
 .add_vi {
     width: 100%;
     height: 40px;
@@ -338,54 +330,7 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-  }.Gallary{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    display: flex;
-  }
-  .Gallary p:hover{
-    color: goldenrod;
-  }
-  .Gallary .ga_in{
-    width: 70%;
-    height: 100%;
-  
-    margin: 0 auto;
-    display: flex;
-    gap: 25rem;
-  }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
-    display: flex;
-  }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
-    color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .icon2 i{
-    font-size: 17px;
-    color: yellowgreen;
-  }
-  .com{
+    .com{
     width: 100%;
     height: 15px;
     background-color: black;
@@ -500,22 +445,22 @@ html{
 }
 .Video_Album_con{
     width: 100%;
-    height: 350px;
+    height: auto;
     background-color: black;
     display: flex;
   }
   .Video_Album_con .Video_Album{
     width: 70%;
-    height: 100%;
-    background-color:;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    gap:50px ;
-    display: flex;
+    row-gap: 10px;
+    column-gap: 35px;
   
   }
   .Video_Album .Video_left{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 350px;
     background-color: blue;
     position: relative;
     display: flex;
@@ -623,4 +568,14 @@ html{
   ::-webkit-scrollbar-track{
     background-color: black;
     border-radius: 10px;
+  }
+  .reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1!important;
   }

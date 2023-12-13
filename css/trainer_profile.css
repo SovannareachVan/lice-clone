@@ -214,28 +214,26 @@ html{
   margin-top: 15px;
   border-width: 1px;
 }
-  .Profile{
-    width: 100%;
-    height: 470px;
-    display: flex;
-    background-color: black;
-  }
-  .ga_right p:hover{
-    color: #EAB308;
-  }
-  .Profile .Profile_3_co{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: #211D1D;
-    display: flex;
-    gap: 20px;
-  }
-  .Profile_3_co .Profile_3_left, .Profile_3_mid, .Profile_3_right{
-    width: 33.33%;
-    height: 100%;
-    background-color: #EAB308;
-  }
+.Profile{
+  width: 100%;
+  height:auto;
+  background-color: black;
+}
+.Profile .pro_{
+  width: 70%;
+  margin: 0 auto;
+}
+.Profile .Profile_3_co{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Gap between grid items */
+  margin: 0 auto;
+}
+.Profile_3_co .Profile_3_left, .Profile_3_mid, .Profile_3_right{
+  width: 100%;
+  height: 490px;
+  background-color: black;
+}
   .Profile_3_left .P_up, .P_down{
     width: 100%;
     height: 44%;
@@ -365,57 +363,69 @@ html{
     height: 3px;
     background-color: #E6AB19;
   }
-  .complete2{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-  }.Gallary{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    display: flex;
-  }
-  .Gallary .ga_in{
+  .Last_manu{
     width: 70%;
-    height: 100%;
-  
+    height: 170px  ;
+    background-color: black;
     margin: 0 auto;
     display: flex;
-    gap: 25rem;
+    justify-content: space-between;
   }
-  .Gallary .ga_in .ga_left ,.ga_right{
-    width: 50%;
-    height: 100%;
-  
-    display: flex;
+  .Last_manu .Manu_ri{
+    width: 330px;
+    background-color: black;
+    margin-top: 30px;
   }
-  .Gallary p:hover{
+  .Last_manu .Manu_le{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .Manu_le{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .Manu_le .Co{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  }
+  .Co a{
+    text-decoration: none;
+    color:white;
+  }
+  .Co a:hover{
     color: goldenrod;
   }
-  .ga_left .Course_,.Galla,.Your_acc{
-    width: 33.33%;
-    height: 100%;
-  
-  }
-  .ga_left p{
-    color: white;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .ga_right p{
-    padding-left: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: "Roboto", sans-serif, "Hanuman", serif;
-  }
-  .icon2 i{
-    font-size: 16px;
-    color: yellowgreen;
-  }
-  .com{
+  .Manu_ri .Map,.Phone,.Mail{
     width: 100%;
-    height: 15px;
-    background-color: black;
+    height: 33.33%;
+    display: flex;
+    gap: 10px;
+  }
+  .Manu_ri .Map,.Phone,.Mail p{
+    color: white;
+  }
+  .Manu_ri .Map i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Phone i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  .Manu_ri .Mail i{
+    color: goldenrod;
+    font-size: 20px;
+  }
+  * {
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+  }
+  .Last_foo{
+    background-color: #000;
+    width: 100%;
   }
   .com_la{
     width: 100%;
@@ -562,4 +572,19 @@ html{
   }
   .btn_right a{
     text-decoration: none;
+  }
+  .reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  .active{
+    transform: translateY(0px);
+    opacity: 1!important;
+  }
+  .for_rev{
+    width: 100%;
+    height: auto;
+    background-color: black;
   }

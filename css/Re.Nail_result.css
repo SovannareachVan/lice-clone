@@ -77,4 +77,12 @@
     column-gap: 17px;
     margin: 0 auto;
 }
+.Last_manu {
+    width: 90%;
+    height: 170px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 }

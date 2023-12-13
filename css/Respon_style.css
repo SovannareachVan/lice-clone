@@ -266,7 +266,7 @@
         align-items: center;
     }
     .Last_footer .Last_manu {
-      width: 90%;
+      width: 0%;
       height: 170px;
       background-color: black;
       margin: 0px auto;
@@ -282,6 +282,15 @@
   background-color: black;
   margin-top: 30px;
 }
+.Last_manu {
+  width: 90%;
+  height: 170px;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 }

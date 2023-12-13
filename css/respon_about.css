@@ -21,7 +21,6 @@
         display: flex;
         align-items: center;
     }
-<<<<<<< HEAD
     .Over_view_left .view_text{
         width: 100%;
         height: auto;
@@ -31,8 +30,6 @@
         align-items: center;
     
       }
-=======
->>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
     .Over_view_con .Over_view {
         width: 90%;
         height: 100%;
@@ -80,11 +77,7 @@
     
 .Over_view .Over_view_pic {
     width: 40%;
-<<<<<<< HEAD
     height: 240px;
-=======
-    height: 100%;
->>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
     background-color: #2b2424;
     display: flex;
     justify-content: center;
@@ -144,5 +137,13 @@
     width: 75%;
     height: 100%;
     display: flex;
+}
+.Last_manu {
+    width: 90%;
+    height: 170px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 }

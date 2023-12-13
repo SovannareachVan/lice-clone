@@ -1499,39 +1499,14 @@ a:hover {
 }
 .Last_footer {
   width: 100%;
-<<<<<<< HEAD
   height: auto ;
   background-color: black;
 }
 .Last_footer .Last_manu{
-=======
   height: 235px;
   background-color: red;
 }
-.complete2 {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-}
-.complete2 {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-}
-.Gallary {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  display: flex;
-}
-.Gallary p:hover {
-  color: goldenrod;
-}
-.Gallary p {
-  font-size: 80px;
-}
-.Gallary .ga_in {
->>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
+.Last_manu{
   width: 70%;
   height: 170px  ;
   background-color: black;
@@ -1539,7 +1514,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
 .Last_manu .Manu_ri{
   width: 330px;
   background-color: black;
@@ -1553,47 +1527,6 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-=======
-.Gallary .ga_in .ga_left,
-.ga_right {
-  width: 50%;
-  height: 100%;
-
-  display: flex;
-}
-.Course_ a {
-  text-decoration: none;
-}
-.Galla a {
-  text-decoration: none;
-}
-.Your_acc a {
-  text-decoration: none;
-}
-.ga_left .Course_,
-.Galla,
-.Your_acc {
-  width: 33.33%;
-  height: 100%;
-  display: flex;
-}
-.ga_left p {
-  color: white;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif, "Hanuman", serif;
-}
-.ga_right p {
-  padding-left: 10px;
-  font-size: 16px;
-  color: white;
-  font-family: "Roboto", sans-serif, "Hanuman", serif;
-}
-.icon2 i {
-  font-size: 14px;
-  color: yellowgreen;
-}
-.com {
->>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
   width: 100%;
   align-items: center;
 }
@@ -1602,7 +1535,6 @@ a:hover {
   height: 60px;
   background-color: black;
 }
-<<<<<<< HEAD
 .Co a{
   text-decoration: none;
   color:white;
@@ -1627,12 +1559,15 @@ a:hover {
   color: goldenrod;
   font-size: 20px;
 }
+.Last_foo{
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
 .Manu_ri .Mail i{
   color: goldenrod;
   font-size: 20px;
 }
-=======
->>>>>>> 024901a0d0b1f099f179b26c511df7fd14df3a22
 .com_la {
   width: 100%;
   height: 2px;
@@ -1719,7 +1654,6 @@ a:hover {
   color: goldenrod;
   font-size: 20px;
 }
-/* Slide  */
 .slideshow-container {
   width: 100%;
   height: auto;

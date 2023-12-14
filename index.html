@@ -75,6 +75,51 @@
         <p>(+855) 78 66 77 21</p>
       </div>
     </div>
+    <div class="menu-responsive manu-active">
+      <div class="menu-header">
+        <div class="right-logo">
+          <img src="/abhc.png" alt="">
+        </div>
+        <div onclick="toggleManuResponsive()">
+          <span class="close-manu cursor-pointer">
+            <i class="fa-solid fa-xmark"></i>
+          </span>
+        </div>
+      </div>
+      <div class="search-content">
+        <form action="#" method="GET">
+          <input type="text" name="search" required value placeholder="Search.....">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+      <div class="menu-content">
+        <div class="grid grid-flow-row gap-2 pd-4">
+            <div class="manu-item active">
+              <a href="/index.html">Home</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/Course.html">Course</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/Salon_partner.html">Salon Partner</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/Gallary.html">Gallary</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/Tranning.html">Tranning Video</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/About.html">About</a>
+            </div>
+            <div class="manu-item">
+              <a href="/Html/Sign_in.html">Your Account</a>
+            </div>
+        </div>
+      </div>
+    </div>
     <div class="bit_container">
       <div class="s_container">
         <div class="s_boxleft">
@@ -166,29 +211,13 @@
       </div>
     </div>
     <div class="White_container">
-        <div class="Course">
-          <div class="course_left">
-
-          </div>
-          <div class="course_middle">
-              <div class="Middle_left">
-                  <div class="left_up">
-
-                  </div>
-              </div>
-              <div class="Middle_middle">
-                  <p>COURSES</p>
-              </div>
-              <div class="Middle_right">
-                  <div class="right_up">
-
-                  </div>
-              </div>
-          </div>
-          <div class="course_right">
-
-          </div>
+      <div class="con-bor2">
+        <div class="Border-wraper2">
+          <div class="Border2"></div>
+          <h3 class="text-2xl2">COURSES</h3>
+          <div class="Border2"></div>
         </div>
+      </div>
         <div class="shadow_container">
           <div class="box_shadow">
             <div class="box_shadow1">
@@ -274,56 +303,43 @@
             </div>
           </div>
         </div>
-        <div class="Cover_image">
-          <div class="in_image">
-           <div class="image_up">
-             <div class="image_up_left"></div>
-             <div class="image_up_middle">
-               <div class="left_blue"></div>
-               <div class="middle_blue">
-                 <p>Who We Are</p>
-               </div>
-               <div class="right_blue"></div>
-             </div>
-             <div class="image_up_right"></div>
-           </div>
-           <div class="image_middle">
-             <div class="p_up">
-               <p>SC-ABHC was created for the mission to serve our partners with highly professional, passion, integrity and discipline in order to make them success in their business through different activities such as Education, Innovation, Connection, and Branding.</p>
-             </div>
-             <div class="p_down">
-             </div>
-           </div>
-           <div class="image_down">
-               <div class="down_in">
-                 <div class="down_left">
-                   <div class="leftup">
-                     <p>203</p>
-                   </div>
-                   <div class="leftdown">
-                     <p>Salon Partner</p>
-                   </div>
-                 </div>
-                 <div class="down_middle">
-                   <div class="middleup">
-                     <p>0</p>
-                   </div>
-                   <div class="middledown">
-                     <p>Certified Trainer</p>
-                   </div>
-                 </div>
-                 <div class="down_right">
-                   <div class="rightup">
-                     <p>1</p>
-                   </div>
-                   <div class="rightdown">
-                     <p>International Brand Partner</p>
-                   </div>
-                 </div> 
-               </div>
-           </div>
+        <div class="Big-cover">
+          <div class="image_center">
+            <div class="girl_im">
+              <img src="/Html/Image/GirlImage.jpg" alt="">
+              <div class="title-center">
+                <div class="con-bor3">
+                  <div class="Border-wraper3">
+                    <div class="Border3"></div>
+                    <h3 class="text-2xl3">Who We Are</h3>
+                    <div class="Border3"></div>
+                  </div>
+                </div>
+                <div class="desc">
+                  <div class="text-base">
+                    <p>
+                      SC-ABHC was created for the mission to serve our partners with highly professional, passion, integrity and discipline in order to make them success in their business through different activities such as Education, Innovation, Connection, and Branding.
+                  </p>
+                  </div>
+                </div>
+                <div class="quantity">
+                  <div class="grid-item-3">
+                    <p>203</p>
+                    <p>Salon Partner</p>
+                  </div>
+                  <div class="grid-item-3">
+                    <p>0</p>
+                    <p>Certified Trainer</p>
+                  </div>
+                  <div class="grid-item-3">
+                    <p>1</p>
+                    <p>International Brand Partner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-       </div>
+        </div>
        <div class="Main_black">
          <div class="main">
              <div class="skew">
@@ -579,5 +595,24 @@
     
     
   <script src="./JAVA/main.js"></script>
+  <script>
+    
+    /* script menu responsive */
+
+    function toggleMenuResponsive() {
+        $('.menu-responsive').toggleClass('manu-active');
+        $('.menu-responsive-cover').toggleClass('manu-active');
+
+        if ($('.menu-responsive-cover').hasClass('manu-active')) {
+            $('body').css({
+                'overflow': 'auto'
+            });
+        } else {
+            $('body').css({
+                'overflow': 'hidden'
+            });
+        }
+    }
+  </script>
 </body>
 </html>

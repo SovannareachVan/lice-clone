@@ -376,8 +376,11 @@ body {
 .s_boxleft li {
 }
 ul a {
-  color: black;
+  color: white;
   text-decoration: none;
+}
+.box_down_up1 a{
+  color: black;
 }
 a:hover {
   color: yellow;

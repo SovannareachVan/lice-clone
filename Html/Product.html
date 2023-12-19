@@ -23,6 +23,11 @@
           </div>
         </div>
       </div>
+      <div class="Nav_con">
+        <div id="navButton" class="Nav_bar_icon">
+          <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
       <div class="pic">
         <div class="d-pic">
           <img src="/abhc.png" alt="">
@@ -47,9 +52,69 @@
           </div>
         </div>
       </div>
+      <div class="Acc_con">
+        <div class="Acc_icon">
+          <a href="/Html/Sign_in.html">
+            <button><i class="fa-solid fa-user"></i></button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="com"></div>
+  <div class="Cus_new_con">
+    <div class="Cus_new">
+      <i class="fa-solid fa-phone"></i>
+      <p>Customer Service:</p>
+      <p>(+855) 78 66 77 21</p>
+    </div>
+  </div>
+  <div id="navMenu" class="menu-responsive manu-active">
+    <div class="menu-header">
+      <div class="right-logo">
+        <img src="/abhc.png" alt="">
+      </div>
+      <div onclick="toggleManuResponsive()">
+        <span id="stopButton" class="close-manu cursor-pointer">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+      </div>
+    </div>
+    <div class="search-content">
+      <form action="#" method="GET">
+        <input type="text" name="search" required value placeholder="Search.....">
+        <button type="submit" class="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+    <div class="menu-content">
+      <div class="grid grid-flow-row gap-2 pd-4">
+          <div class="manu-item active">
+            <a href="/index.html">Home</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/Course.html">Course</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/Salon_partner.html">Salon Partner</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/Gallary.html">Gallary</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/Tranning.html">Tranning Video</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/About.html">About</a>
+          </div>
+          <div class="manu-item">
+            <a href="/Html/Sign_in.html">Your Account</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-responsive-cover" id="menu_responsive"></div>
   <div class="bit_container">
     <div class="s_container">
       <div class="s_boxleft">
@@ -214,4 +279,39 @@
         </div>
     </div>
 </body>
+<script>
+      document.addEventListener('DOMContentLoaded', function() {
+    const navButton = document.getElementById('navButton');
+    const stopButton = document.getElementById('stopButton');
+    const navMenu = document.getElementById('navMenu');
+    const menu_responsive = document.getElementById('menu_responsive');
+    
+    // Open navigation menu
+    navButton.addEventListener('click', function() {
+      navMenu.style.left = '0';
+      menu_responsive.style.display = 'block';
+      navMenu.classList.remove('closed');
+      stopButton.style.display = 'block';
+      navButton.style.display = 'none';
+    });
+  
+    // Close navigation menu
+    stopButton.addEventListener('click', function() {
+      navMenu.style.left = '-100%';
+      menu_responsive.style.display = 'none';
+      navMenu.classList.add('closed');
+      stopButton.style.display = 'none';
+      navButton.style.display = 'block';
+    });
+    // Close navigation menu
+    menu_responsive.addEventListener('click', function() {
+      navMenu.style.left = '-100%';
+      menu_responsive.style.display = 'none';
+      navMenu.classList.add('closed');
+      stopButton.style.display = 'none';
+      navButton.style.display = 'block';
+    });
+    
+  });
+</script>
 </html>

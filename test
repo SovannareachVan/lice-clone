@@ -1,0 +1,39 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const navButton = document.getElementById('navButton');
+  const stopButton = document.getElementById('stopButton');
+  const navMenu = document.getElementById('navMenu');
+  
+  // Open navigation menu
+  navButton.addEventListener('click', function() {
+    openMenu();
+  });
+
+  // Close navigation menu
+  stopButton.addEventListener('click', function() {
+    closeMenu();
+  });
+
+  // Close navigation menu when clicking outside of it
+  document.addEventListener('click', function(event) {
+    const isClickInsideNav = navMenu.contains(event.target);
+    const isClickNavButton = event.target === navButton;
+    
+    if (!isClickInsideNav && !isClickNavButton) {
+      closeMenu();
+    }
+  });
+
+  function openMenu() {
+    navMenu.style.left = '0';
+    navMenu.classList.remove('closed');
+    stopButton.style.display = 'block';
+    navButton.style.display = 'none';
+  }
+
+  function closeMenu() {
+    navMenu.style.left = '-100%';
+    navMenu.classList.add('closed');
+    stopButton.style.display = 'none';
+    navButton.style.display = 'block';
+  }
+});

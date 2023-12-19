@@ -25,6 +25,11 @@
               </div>
             </div>
           </div>
+          <div class="Nav_con">
+            <div id="navButton" class="Nav_bar_icon">
+              <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+          </div>
           <div class="pic">
             <div class="d-pic">
               <img src="/abhc.png" alt="">
@@ -49,9 +54,67 @@
               </div>
             </div>
           </div>
+          <div class="Acc_con">
+            <div class="Acc_icon">
+              <button><i class="fa-solid fa-user"></i></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="com"></div>
+      <div class="Cus_new_con">
+        <div class="Cus_new">
+          <i class="fa-solid fa-phone"></i>
+          <p>Customer Service:</p>
+          <p>(+855) 78 66 77 21</p>
+        </div>
+      </div>
+      <div id="navMenu" class="menu-responsive manu-active">
+        <div class="menu-header">
+          <div class="right-logo">
+            <img src="/abhc.png" alt="">
+          </div>
+          <div onclick="toggleManuResponsive()">
+            <span id="stopButton" class="close-manu cursor-pointer">
+              <i class="fa-solid fa-xmark"></i>
+            </span>
+          </div>
+        </div>
+        <div class="search-content">
+          <form action="#" method="GET">
+            <input type="text" name="search" required value placeholder="Search.....">
+            <button type="submit" class="btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="menu-content">
+          <div class="grid grid-flow-row gap-2 pd-4">
+              <div class="manu-item">
+                <a href="/index.html">Home</a>
+              </div>
+              <div class="manu-item">
+                <a href="/Html/Course.html">Course</a>
+              </div>
+              <div class="manu-item active">
+                <a href="/Html/Salon_partner.html">Salon Partner</a>
+              </div>
+              <div class="manu-item">
+                <a href="/Html/Gallary.html">Gallary</a>
+              </div>
+              <div class="manu-item">
+                <a href="/Html/Tranning.html">Tranning Video</a>
+              </div>
+              <div class="manu-item">
+                <a href="/Html/About.html">About</a>
+              </div>
+              <div class="manu-item">
+                <a href="/Html/Sign_in.html">Your Account</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-responsive-cover" id="menu_responsive"></div>
       <div class="bit_container">
         <div class="s_container">
           <div class="s_boxleft">
@@ -95,7 +158,8 @@
               <div class="Border"></div>
               <h3 class="text-2xl">SALON PARTNER</h3>
               <div class="Border"></div>
-            </div>
+            </div>`
+          </div>
         <div class="Map_Container">
             <div class="For_Map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7817.891218134967!2d104.885106!3d11.555757!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1700207246543!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -120,34 +184,47 @@
                           <div class="In_right_down">
                               <div class="Left_tx">
                                   <div class="tel">
-                                      <div class="T"><p>Tel</p></div>
+                                      <div class="T">
+                                        <p>Tel</p>
+                                        <p>:</p>
+                                      </div>
                                   </div>
                                   <div class="Facebook">
-                                      <div class="F"><p>Facebook</p></div>
+                                      <div class="F">
+                                        <p>Facebook</p>
+                                        <p>:</p>
+                                      </div>
                                   </div>
                                   <div class="Address">
-                                      <div class="A"><p>Address</p></div>
+                                      <div class="A">
+                                        <p>Address</p>
+                                        <p>:</p>
+                                      </div>
                                   </div>
                                   <div class="Google_map">
-                                      <div class="G"><p>Google Map</p></div>
+                                      <div class="G">
+                                        <p>Google Map</p>
+                                        <p>:</p>
+                                      </div>
                                   </div>
                               </div>
-                              <div class="Right_tx">
-                                  <div class="One">
-                                      <p>: 012 205 454/093808680/087818283</p>
-                                  </div>
-                                  <div class="Two"><p>:</p></div>
-                                  <div class="Three">
-                                      <P>: Phnom Penh, Toul Kork/#66,st.592(Behind Indradevi Height School)</P>
-                                  </div>
-                                  <div class="Four"><p>:</p></div>
+                              <div class="Ri_tx">
+                                <div class="O">
+                                  <p>012 205 454/093808680/087818283</p>
+                                </div>
+                                <div class="TW">
+                                  <p>hh</p>
+                                </div>
+                                <div class="TH">
+                                  <p>Phnom Penh, Toul Kork | #66, St.592 (behind Indradevi High School)</p>
+                                </div>
+                                <div class="FOU"></div>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="ad"></div>
           <div class="Line_yellow">
             <div class="L_in"></div>
           </div>
@@ -164,144 +241,190 @@
                     <div class="In_mid"></div>
                     <div class="In_right">
                         <div class="In_right_up">
-                            <p>TT Massage Salon</p></div>
+                            <p>TT Messsage Salon</p></div>
                         <div class="In_right_down">
                             <div class="Left_tx">
                                 <div class="tel">
-                                    <div class="T"><p>Tel</p></div>
+                                    <div class="T">
+                                      <p>Tel</p>
+                                      <p>:</p>
+                                    </div>
                                 </div>
                                 <div class="Facebook">
-                                    <div class="F"><p>Facebook</p></div>
+                                    <div class="F">
+                                      <p>Facebook</p>
+                                      <p>:</p>
+                                    </div>
                                 </div>
                                 <div class="Address">
-                                    <div class="A"><p>Address</p></div>
+                                    <div class="A">
+                                      <p>Address</p>
+                                      <p>:</p>
+                                    </div>
                                 </div>
                                 <div class="Google_map">
-                                    <div class="G"><p>Google Map</p></div>
+                                    <div class="G">
+                                      <p>Google Map</p>
+                                      <p>:</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="Right_tx">
-                                <div class="One">
-                                    <p>:  077277724</p>
-                                </div>
-                                <div class="Two"><p>:</p></div>
-                                <div class="Three">
-                                    <P>: Phnom Penh, Toul Kork | St.590</P>
-                                </div>
-                                <div class="Four"><p>:</p></div>
-                                
+                            <div class="Ri_tx">
+                              <div class="O">
+                                <p>077277724</p>
+                              </div>
+                              <div class="TW">
+                                <p>hh</p>
+                              </div>
+                              <div class="TH">
+                                <p>
+                                  Phnom Penh, Toul Kork | St.590
+                              </p>
+                              </div>
+                              <div class="FOU"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="Add_50"></div>
-        <div class="Line_yellow">
-          <div class="L_in"></div>
-        </div>
-        <div class="Circle_partner reveal">
-          <div class="Circle">
-              <div class="In">
-                  <div class="In_left">
-                      <div class="new_bor">
-                          <p>New</p>
-                      </div>
-                      <div class="small_bor"><img src="../Html/Image/label-2.png" alt=""></div>
-                      <div class="circle_pic"><img src="../Html/Image/18 home.jpg" alt=""></div>
-                  </div>
-                  <div class="In_mid"></div>
-                  <div class="In_right">
-                      <div class="In_right_up">
-                          <p>18 Home Salon</p></div>
-                      <div class="In_right_down">
-                          <div class="Left_tx">
-                              <div class="tel">
-                                  <div class="T"><p>Tel</p></div>
-                              </div>
-                              <div class="Facebook">
-                                  <div class="F"><p>Facebook</p></div>
-                              </div>
-                              <div class="Address">
-                                  <div class="A"><p>Address</p></div>
-                              </div>
-                              <div class="Google_map">
-                                  <div class="G"><p>Google Map</p></div>
-                              </div>
-                          </div>
-                          <div class="Right_tx">
-                              <div class="One">
-                                  <p>: 081 627 218</p>
-                              </div>
-                              <div class="Two"><p>:</p></div>
-                              <div class="Three">
-                                  <P>: បង​ផ្លូវ​63កែង392 ផ្ទះ​លេខ​246 ឈ្មោះហាងផ្តូរទៅជា18 home salon , Phnom Penh, Cambodia</P>
-                              </div>
-                              <div class="Four">
-                                <p>:</p>
-                                <a href="https://www.google.com/maps/dir/11.5774458,104.9038456/11.5457409,104.9246292/@11.562648,104.8966429,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu" target="_blank">https://www.google.com/maps/dir/11.5774458,104.9038456/11.5457409,104.9246292/@11.562648,104.8966429,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+          <div class="Line_yellow">
+            <div class="L_in"></div>
           </div>
-      </div>
-      <div class="Add_50"></div>
-        <div class="Line_yellow">
-          <div class="L_in"></div>
+          <div class="Circle_partner reveal">
+            <div class="Circle">
+                <div class="In">
+                    <div class="In_left">
+                        <div class="new_bor">
+                            <p>New</p>
+                        </div>
+                        <div class="small_bor"><img src="../Html/Image/label-2.png" alt=""></div>
+                        <div class="circle_pic"><img src="../Html/Image/18 home.jpg" alt=""></div>
+                    </div>
+                    <div class="In_mid"></div>
+                    <div class="In_right">
+                        <div class="In_right_up">
+                            <p>18 Home Salon</p></div>
+                        <div class="In_right_down">
+                            <div class="Left_tx">
+                                <div class="tel">
+                                    <div class="T">
+                                      <p>Tel</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Facebook">
+                                    <div class="F">
+                                      <p>Facebook</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Address1">
+                                    <div class="Ad">
+                                      <p>Address</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Google_map">
+                                    <div class="G">
+                                      <p>Google Map</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Ri_tx">
+                              <div class="O">
+                                <p>081 627 218</p>
+                              </div>
+                              <div class="TW">
+                                <p>hh</p>
+                              </div>
+                              <div class="TH">
+                                <p>
+                                  
+                                  បង​ផ្លូវ​63កែង392 ផ្ទះ​លេខ​246 ឈ្មោះហាងផ្តូរទៅជា18 home salon , Phnom Penh, Cambodia
+                                            
+                              </p>
+                              </div>
+                              <div class="FOU"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="Circle_partner reveal">
-          <div class="Circle">
-              <div class="In">
-                  <div class="In_left">
-                      <div class="new_bor">
-                          <p>New</p>
-                      </div>
-                      <div class="small_bor"><img src="../Html/Image/label-2.png" alt=""></div>
-                      <div class="circle_pic"><img src=".//Image/japan.jpg" alt=""></div>
-                  </div>
-                  <div class="In_mid"></div>
-                  <div class="In_right">
-                      <div class="In_right_up">
-                          <p>CamiYui By Prosol Japan Salon</p></div>
-                      <div class="In_right_down">
-                          <div class="Left_tx">
-                              <div class="tel">
-                                  <div class="T"><p>Tel</p></div>
-                              </div>
-                              <div class="Facebook">
-                                  <div class="F"><p>Facebook</p></div>
-                              </div>
-                              <div class="Address">
-                                  <div class="A"><p>Address</p></div>
-                              </div>
-                              <div class="Google_map">
-                                  <div class="G"><p>Google Map</p></div>
-                              </div>
-                          </div>
-                          <div class="Right_tx">
-                              <div class="One">
-                                  <p>:  016668972</p>
-                              </div>
-                              <div class="Two"><p>:</p></div>
-                              <div class="Three">
-                                  <P>: Phnom Penh, Beoung Keng Kang | St.360, BKK 1 Millennial 360 service apartment #7 St 360 Beoung Keng Kang1 Khan Beoung Keng Kang Phnom Penh, Phnom Penh, Cambodia</P>
-                              </div>
-                              <div class="Four">
-                                <p>:</p>
-                                <a href="https://www.google.com/maps/dir/11.5774458,104.9038456/11.5490734,104.9276197/@11.5642747,104.8987953,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu" target="_blank">https://www.google.com/maps/dir/11.5774458,104.9038456/11.5490734,104.9276197/@11.5642747,104.8987953,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+          <div class="Line_yellow">
+            <div class="L_in"></div>
           </div>
-      </div>
+          <div class="Circle_partner reveal">
+            <div class="Circle">
+                <div class="In">
+                    <div class="In_left">
+                        <div class="new_bor">
+                            <p>New</p>
+                        </div>
+                        <div class="small_bor"><img src="../Html/Image/label-2.png" alt=""></div>
+                        <div class="circle_pic"><img src="../Html/Image/japan.jpg" alt=""></div>
+                    </div>
+                    <div class="In_mid"></div>
+                    <div class="In_right">
+                        <div class="In_right_up">
+                            <p>CamiYui By Prosol Japan Salon</p></div>
+                        <div class="In_right_down">
+                            <div class="Left_tx">
+                                <div class="tel">
+                                    <div class="T">
+                                      <p>Tel</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Facebook">
+                                    <div class="F">
+                                      <p>Facebook</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Address2">
+                                    <div class="Ad">
+                                      <p>Address</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                                <div class="Google_map">
+                                    <div class="G">
+                                      <p>Google Map</p>
+                                      <p>:</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Ri_tx">
+                              <div class="O">
+                                <p>016668972</p>
+                              </div>
+                              <div class="TW">
+                                <p>hh</p>
+                              </div>
+                              <div class="TH">
+                                <p>
+                                  
+                                  
+                                  Phnom Penh, Beoung Keng Kang | St.360, BKK 1
+                                  Millennial 360 service apartment #7 St 360 Beoung Keng Kang1 Khan Beoung Keng Kang Phnom Penh, Phnom Penh, Cambodia
+                                                                              
+                                            
+                              </p>
+                              </div>
+                              <div class="FOU"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    <div class="Add_50_2">
-      <div class="In_2"></div>
-    </div>
+          <div class="Line_yellow">
+            <div class="L_in"></div>
+          </div>
+        </div>
     <div class="two_btn_container">
       <div class="Main_btn">
         <div class="Three_blo">
@@ -399,5 +522,40 @@
   </div>
     </Header>
     <script src="/JAVA/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const navButton = document.getElementById('navButton');
+    const stopButton = document.getElementById('stopButton');
+    const navMenu = document.getElementById('navMenu');
+    const menu_responsive = document.getElementById('menu_responsive');
+    
+    // Open navigation menu
+    navButton.addEventListener('click', function() {
+      navMenu.style.left = '0';
+      menu_responsive.style.display = 'block';
+      navMenu.classList.remove('closed');
+      stopButton.style.display = 'block';
+      navButton.style.display = 'none';
+    });
+  
+    // Close navigation menu
+    stopButton.addEventListener('click', function() {
+      navMenu.style.left = '-100%';
+      menu_responsive.style.display = 'none';
+      navMenu.classList.add('closed');
+      stopButton.style.display = 'none';
+      navButton.style.display = 'block';
+    });
+    // Close navigation menu
+    menu_responsive.addEventListener('click', function() {
+      navMenu.style.left = '-100%';
+      menu_responsive.style.display = 'none';
+      navMenu.classList.add('closed');
+      stopButton.style.display = 'none';
+      navButton.style.display = 'block';
+    });
+    
+  });
+    </script>
 </body>
 </html>

@@ -83,7 +83,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: unset;
 }
 .M_and_V_con .M_and_V {
     width: 90%;
@@ -268,5 +268,213 @@
     height: 100%;
     background-color: white;
     margin: 0 auto;
+}
+}
+@media screen and (max-width:429px){
+  .Over_view_con .Over_view {
+    width: 100%;
+    height: 100%;
+    background-color: #2b2424;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.Last_pic {
+  width: 100%;
+  height: 310px;
+  background-color: black;
+  padding-bottom: 10px;
+}
+.Pic6_con .Pic6 {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+  row-gap: 20px;
+}
+.Last_manu {
+  width: 90%;
+  height: auto;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Last_manu .Manu_ri {
+  width: 100%;
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+}
+.Last_manu .Manu_ri {
+  width: 100%;
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.Manu_ri .Map, .Phone, .Mail p {
+  color: white;
+}
+.Manu_ri .Map, .Phone, .Mail {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  gap: 10px;
+}
+.last_con {
+width: 100%;
+height: auto;
+background-color: black;
+padding-top: 30px;
+}
+.last {
+width: 100%;
+height: auto;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 19px;
+padding-bottom: 20px;
+}
+.last .txl, .txr {
+width: 70%;
+height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+color: white;
+font-size: 16px;
+}
+.line {
+width: 100%;
+height: 1px;
+background-color: #e6ab19;
+}
+.In_right .In_right_up {
+  width: 100%;
+  height: 18%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.menu-responsive {
+  width: 100%;
+  height: 100%;
+  display: unset;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background-color: #1c1b1b;
+  z-index: 999999999999;
+  color: white;
+  transition: 0.3s ease-in-out;
+  overflow-y: auto;
+}
+.Over_view .Over_view_pic {
+  width: 100%;
+  height: 280px;
+}
+.loca_co {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  padding-top: 20px;
+}
+.Map_and_txt .Map_left {
+  width: 100%;
+  height: 370px;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+}
+.txt_right {
+  width: 90%;
+  margin: 0 auto;
+}
+.loco_text i {
+  color: goldenrod;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.M_and_V .Misson, .Visson {
+  width: 100%;
+  height: 100%;
+}
+.Misson {
+  border:none;
+}
+.Visson {
+  border:none;
+}
+.M_and_V_con {
+  width: 100%;
+  height: unset;
+  background-color: black;
+  display: flex;
+}
+.Border-wraper2 h3 {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: goldenrod;
+  font-size: 20px;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.Border-wraper2 .Border2 {
+  border-bottom: 3px solid white;
+  width: 90px;
+  margin-top: 15px;
+  border-width: 1px;
+}
+.M_down .Text_vission {
+  color: white;
+  font-size: 15px;
+  padding-left: unset;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  text-align: center;
+}
+.Text_mission {
+  padding-right: unset;
+}
+.M_down .Text_mission .Text1, .Text2, .Text3 p {
+  color: white;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-size: 16px;
+}
+.mm {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.Border-wraper h3 {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: goldenrod;
+  font-size: 20px;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.Border-wraper .Border {
+  border-bottom: 3px solid white;
+  width: 90px;
+  margin-top: 15px;
+  border-width: 1px;
+}
+.bb {
+  width: 100%;
+  height: 20px;
+  display: none;
 }
 }

@@ -727,5 +727,17 @@ ul a {
   transition: all 0.3s ease-in-out 0s;
   overflow-y: auto;
 }
+.con-bor2 {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  padding-top: 30px;
+}
+.Border-wraper2 .Border2 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.469);
+  width: 90px;
+  margin-top: 15px;
+  border-width: 1px;
+}
 }
 

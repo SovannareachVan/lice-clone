@@ -380,7 +380,7 @@ ul a {
   text-decoration: none;
 }
 .box_down_up1 a{
-  color: black;
+  color: black  ;
 }
 a:hover {
   color: yellow;

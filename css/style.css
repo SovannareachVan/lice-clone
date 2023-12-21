@@ -36,8 +36,8 @@ body {
 }
 .nav-bar .cus,
 .search {
-  width: 17%;
-  height: 100%;
+  /* width: 17%;
+  height: 100%; */
   background-color: black;
   display: flex;
   align-items: center;
@@ -794,6 +794,10 @@ a:hover {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+
+}
+.box_down_up3 a{
+  color: black;
 }
 .box_down_down1 i {
   color: black;

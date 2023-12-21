@@ -81,8 +81,8 @@ html{
     color: white;
   }
   .nav-bar .cus,.search{
-    width: 17%;
-    height: 100%;
+    /* width: 17%;
+    height: 100%; */
     background-color: black;
     display: flex;
     align-items: center;
@@ -783,7 +783,7 @@ html{
   margin: 0 auto;
 }
 .P_mid .Thet_piseth{
-  width: 70%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
   background-color: #231F20;
@@ -795,7 +795,7 @@ html{
   font-family: Arial, Helvetica, sans-serif;
 }
 .P_mid .Pen_dara{
-  width: 80%;
+  width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;

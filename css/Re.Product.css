@@ -274,5 +274,10 @@ background-color: #e6ab19;
   text-align: center;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
-
+.nav-bar .pic {
+  width: 20%;
+  height: 100%;
+}.menu-header .right-logo {
+  width: 15%;
+}
 }

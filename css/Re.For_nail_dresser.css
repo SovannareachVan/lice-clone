@@ -327,12 +327,18 @@ background-color: #e6ab19;
   row-gap: 10px;
   column-gap: 35px;
   margin: 0 auto;
-  f
 }
 .txm .class_i {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
+}
+.menu-header .right-logo {
+  width: 15%;
+}
+.nav-bar .pic {
+  width: 20%;
+  height: 100%;
 }
 }

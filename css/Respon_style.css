@@ -6,6 +6,24 @@
         align-items: center;
         display: flex;
       }
+      .box_down_up3 a{
+        color: black;
+      }
+      .new_icon i {
+        padding-left: 100px;
+        background-color: transparent;
+        padding-top: 3px;
+        font-size: 20px;
+        color: #eab308;
+    }
+    .a_icon22 {
+      padding-left: 80px;
+      padding-top: 3px;
+  }
+  .a_icon {
+    padding-left: 80px;
+    padding-top: 3px;
+}
       .nav-bar{
         width: 90%;
         height: 100%;
@@ -744,6 +762,13 @@ ul a {
   align-items: center;
   justify-content: space-evenly;
   gap: 20px;
+}
+.nav-bar .pic {
+  width: 20%;
+  height: 100%;
+}
+.menu-header .right-logo {
+  width: 15%;
 }
 }
 

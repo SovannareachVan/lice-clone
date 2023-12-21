@@ -380,4 +380,11 @@ overflow-y: auto;
   justify-content: space-evenly;
   gap: 20px;
 }
+.nav-bar .pic {
+  width: 20%;
+  height: 100%;
+}
+.menu-header .right-logo {
+  width: 15%;
+}
 }

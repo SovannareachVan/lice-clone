@@ -207,3 +207,131 @@
         justify-content: space-between;
     }
 }
+@media screen and (max-width:429px){
+  .Picture_con .Picture {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 17px;
+    column-gap: 17px;
+    margin: 0 auto;
+}
+.Last_manu {
+  width: 90%;
+  height: auto;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Last_manu .Manu_ri {
+  width: 100%;
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+}
+.Last_manu .Manu_ri {
+  width: 100%;
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.Manu_ri .Map, .Phone, .Mail p {
+  color: white;
+}
+.Manu_ri .Map, .Phone, .Mail {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  gap: 10px;
+}
+.last_con {
+width: 100%;
+height: auto;
+background-color: black;
+padding-top: 30px;
+}
+.last {
+width: 100%;
+height: auto;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 19px;
+padding-bottom: 20px;
+}
+.last .txl, .txr {
+width: 70%;
+height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+color: white;
+font-size: 16px;
+}
+.line {
+width: 100%;
+height: 1px;
+background-color: #e6ab19;
+}
+.Border-wraper .Border {
+  border-bottom: 3px solid goldenrod;
+  width: 90px;
+  margin-top: 15px;
+  border-width: 1px;
+}
+.Border-wraper h3 {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: goldenrod;
+  font-size: 18px;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.Emty_con .Emty_pic {
+  width: 90%;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+}
+.Emty_data_con .Emty_data {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no_data_con .no_data {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no_data p {
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+.Emty_data p {
+  color: white;
+  font-family: "Roboto", sans-serif, "Hanuman", serif;
+  font-size: 25px;
+}
+.txm .class_i {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+}

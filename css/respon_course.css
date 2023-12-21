@@ -374,4 +374,10 @@ color: white;
 transition: all 0.3s ease-in-out 0s;
 overflow-y: auto;
 }
+.txm .class_i {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
 }

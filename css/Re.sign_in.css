@@ -334,4 +334,10 @@
         margin-top: 15px;
         border-width: 1px;
     }
+    .txm .class_i {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      gap: 20px;
+  }
 }

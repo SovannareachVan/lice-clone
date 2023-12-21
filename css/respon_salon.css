@@ -360,4 +360,10 @@ background-color: #e6ab19;
   transition: 0.3s ease-in-out;
   overflow-y: auto;
 }
+.txm .class_i {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
 }

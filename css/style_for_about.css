@@ -19,7 +19,7 @@ html{
   .M_and_V .con_M_and_V{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .nav-bar{
     width: 70%;

@@ -389,3 +389,479 @@ background-color: #e6ab19;
   font-family: "Roboto", sans-serif, "Hanuman", serif;
 }
 }
+@media screen and (max-width:840px){
+  .bit_container{
+    display: none;
+  }
+  .cus{
+    display: none!important;
+  }
+  .search{
+    display: none!important;
+  }
+.pic{
+  justify-content: center!important;
+  display: flex;
+}
+.Nav_con{
+  display: block;
+}
+.Acc_con {
+  display: block;
+}
+.nav-bar-con {
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+  align-items: center;
+  display: flex;
+}
+.d-pic img {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  padding-top: 10px;
+}
+.Cus_new_con{
+display: block;
+}
+.nav-bar-con {
+  width: 100%;
+  height: 120px;
+  background-color: #000;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.com {
+width: 100%;
+height: 10px;
+background-color: black;
+position: sticky;
+top: 120px;
+z-index: 999;
+}
+.Cus_new_con{
+position: sticky;
+top: 120px;
+z-index: 999;
+background-color: black
+}
+.Last_manu .Manu_le {
+width: 450px;
+margin-top: 30px;
+}
+.Last_manu .Manu_ri {
+width: 280px;
+background-color: black;
+margin-top: 30px;
+margin-left: 20px;
+}
+.last{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+.last .txm {
+width: 25%;
+height: 25px;
+}
+.Circle .In {
+width: 90%;
+height: unset;
+background-color: black;
+flex-direction: column;
+align-items: center;
+line-height: 22px;
+padding: 20px 150px;
+display: flex;
+
+}
+.In_right{
+margin-top: 40px;
+}
+.In .In_right {
+width: 100%;
+height: 100%;
+background-color: black;
+}
+.In_right_down .Left_tx {
+width: 35%;
+height: 100%;
+}
+.con_cir{
+
+}
+.two_btn_container .Main_btn {
+width: 70%;
+height: 40%;
+background-color: black;
+margin: 0 auto;
+display: flex;
+}
+.Circle_partner {
+width: 100%;
+height: unset;
+background-color: black;
+}
+
+.Left_tx .tel, .Facebook, .Address, .Google_map {
+width: 100%;
+height: 35%;
+background-color: black;
+color: white;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Address1 {
+width: 100%;
+height: 50%;
+background-color: black;
+color: white;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Address .A {
+display: flex;
+justify-content: space-between;
+margin-bottom: 25px;
+}
+.Ad {
+display: flex;
+justify-content: space-between;
+margin-bottom: 32px;
+}
+}
+@media screen and (max-width:429px){
+.Circle .In {
+width: 90%;
+height: unset;
+background-color: black;
+flex-direction: column;
+align-items: center;
+line-height: 22px;
+padding:unset;
+display: flex;
+}
+.Map_Container {
+width: 100%;
+height: 380px;
+background-color: black;
+display: flex;
+}
+.Address .A {
+display: flex;
+justify-content: space-between;
+margin-bottom: 60px;
+}
+.Ad22 {
+display: flex;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+.Line_yellow {
+width: 100%;
+height: 50px;
+background-color: black;
+display: flex;
+margin-top: 20px;
+}
+.two_btn_container .Main_btn {
+width: 80%;
+height: 40%;
+background-color: black;
+margin: 0 auto;
+display: flex;
+}
+.Main_btn .Three_blo {
+width: 50%;
+height: 100%;
+background-color: black;
+margin: 0 auto;
+display: flex;
+}
+.Last_manu {
+width: 90%;
+height: auto;
+background-color: black;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.Last_manu .Manu_ri {
+width: 100%;
+background-color: black;
+margin-left: 0;
+margin-top: 0;
+}
+.Last_manu .Manu_ri {
+width: 100%;
+background-color: black;
+margin-left: 0;
+margin-top: 0;
+margin-bottom: 70px;
+}
+
+.Manu_ri .Map, .Phone, .Mail p {
+color: white;
+}
+.Manu_ri .Map, .Phone, .Mail {
+width: 100%;
+height: 60%;
+display: flex;
+gap: 10px;
+}
+.last_con {
+width: 100%;
+height: auto;
+background-color: black;
+padding-top: 30px;
+}
+.last {
+width: 100%;
+height: auto;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 19px;
+padding-bottom: 20px;
+}
+.last .txl, .txr {
+width: 70%;
+height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+color: white;
+font-size: 16px;
+}
+.line {
+width: 100%;
+height: 1px;
+background-color: #e6ab19;
+}
+.In_right .In_right_up {
+width: 100%;
+height: 18%;
+background-color: black;
+display: flex;
+justify-content: center;
+}
+.menu-responsive {
+width: 100%;
+height: 100%;
+display: unset;
+position: fixed;
+top: 0;
+left: -100%;
+background-color: #1c1b1b;
+z-index: 999999999999;
+color: white;
+transition: 0.3s ease-in-out;
+overflow-y: auto;
+}
+.txm .class_i {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+}
+.nav-bar .pic {
+width: 20%;
+height: 100%;
+}
+.menu-header .right-logo {
+width: 15%;
+}
+.Border-wraper .Border {
+border-bottom: 3px solid white;
+width: 90px;
+margin-top: 15px;
+border-width: 1px;
+}
+.Border-wraper h3 {
+margin-left: 15px;
+margin-right: 15px;
+color: goldenrod;
+font-size: 20px;
+line-height: 2rem;
+text-align: center;
+font-family: "Roboto", sans-serif, "Hanuman", serif;
+}
+}
+@media screen and (max-width:1207px){
+  .In_right_down .Left_tx {
+    width: 25%;
+    height: 100%;
+}
+}
+@media screen and (max-width:640px){
+  .Circle .In {
+    width: 90%;
+    height: unset;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    line-height: 22px;
+    padding:unset;
+    display: flex;
+    }
+    .Map_Container {
+    width: 100%;
+    height: 380px;
+    background-color: black;
+    display: flex;
+    }
+    .Address .A {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    }
+    .Ad22 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    }
+    .Line_yellow {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    margin-top: 20px;
+    }
+    .two_btn_container .Main_btn {
+    width: 80%;
+    height: 40%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    }
+    .Main_btn .Three_blo {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    }
+    .Last_manu {
+    width: 90%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .Last_manu .Manu_ri {
+    width: 100%;
+    background-color: black;
+    margin-left: 0;
+    margin-top: 0;
+    }
+    .Last_manu .Manu_ri {
+    width: 100%;
+    background-color: black;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 70px;
+    }
+    
+    .Manu_ri .Map, .Phone, .Mail p {
+    color: white;
+    }
+    .Manu_ri .Map, .Phone, .Mail {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 10px;
+    }
+    .last_con {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 30px;
+    }
+    .last {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 19px;
+    padding-bottom: 20px;
+    }
+    .last .txl, .txr {
+    width: 70%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    color: white;
+    font-size: 16px;
+    }
+    .line {
+    width: 100%;
+    height: 1px;
+    background-color: #e6ab19;
+    }
+    .In_right .In_right_up {
+    width: 100%;
+    height: 18%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    }
+    .menu-responsive {
+    width: 100%;
+    height: 100%;
+    display: unset;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: #1c1b1b;
+    z-index: 999999999999;
+    color: white;
+    transition: 0.3s ease-in-out;
+    overflow-y: auto;
+    }
+    .txm .class_i {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    }
+    .nav-bar .pic {
+    width: 20%;
+    height: 100%;
+    }
+    .menu-header .right-logo {
+    width: 15%;
+    }
+    .Border-wraper .Border {
+    border-bottom: 3px solid white;
+    width: 90px;
+    margin-top: 15px;
+    border-width: 1px;
+    }
+    .Border-wraper h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: goldenrod;
+    font-size: 20px;
+    line-height: 2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif, "Hanuman", serif;
+    }
+}
